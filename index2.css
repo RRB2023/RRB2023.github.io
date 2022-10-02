@@ -38,16 +38,22 @@ h1, h3, p{
 .chart{
     background-color: orange;
     width:330px;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: red;
+    border-color: green;
+    margin-left: auto;
+    margin-right: auto;
     
 }
     
 
 /* Set the apperance for a particular chart */
-#Chart1{
-    border-color: blue;   
+#Chart3{
+    border-color: green; 
+    border-width: 5px  
 }
+
+
+
 
