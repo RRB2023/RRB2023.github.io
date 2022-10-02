@@ -26,15 +26,42 @@
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
         <h1>Data Science 2022</h1>
-        
-        <h3>Endangered Species</h3>
-        <p>The first chart shows the number of endangered species, their type and whether they are verterbrates or invertebrates.</p>
-        <div class="chart" id="Chart3"></div>
+        <h2>Portfolio</h2>
 
-        <h3>Size of UK economy</h3>
-        <p>My second chart is an interactive chart that looks at the nominal quarterly GDP of the UK between 1955-2021.</p>
-        <div class="chart" id="Chart4"> </div>
-    </div> 
+        <section class="container">
+            <div class="card">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Week 1-Embedding Graphs</span>
+                </span>
+            </div>
+            <div class="chart" id="Chart3"></div>
+            <p>The first chart shows the number of endangered species, their type and whether they are verterbrates or invertebrates.</p>
+            </div>
+
+            <div class="card">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Week 1-Embedding Graohs</span>
+                </span>
+            </div> 
+            <div class="chart" id="Chart4"></div>
+            <p>This second chart is an interactive chart that looks at the nominal quarterly GDP of the UK between 1955-2021.</p>
+            </div>
+
+            
+            
+            
+
+    
+
+
+        </section>
+        </div>
+    
+
+        
+
 </body>
 
 
@@ -49,6 +76,7 @@
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
 </script>
+
 
 </html>
 

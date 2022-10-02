@@ -2,6 +2,9 @@
 
 /* This is my second CSS file */
 
+*{
+    box-sizing: border-box;
+}
 
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
@@ -25,8 +28,18 @@ body, html{
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
-    color:rgb(250, 250, 250);
+
+h1, h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h3, h4, p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color:rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -36,17 +49,42 @@ h1, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
-    background-color: rgb(230, 230, 230;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
     width:330px;
     border-width: 5px;
     border-style: solid;
     border-radius: 5px;
     border-color: green;
-    margin-left: auto;
-    margin-right: auto;
+    
     
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 220px;
+    overflow: auto;
+    margin-bottom: 10vh;
+}
     
+.card{
+    background: white;
+    width: 330px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
 
 /* Set the apperance for a particular chart */
 #Chart3{
