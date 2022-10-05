@@ -1,0 +1,189 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my second CSS file */
+
+*{
+    box-sizing: border-box;
+}
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+body, html{
+    height: 100%;
+ 
+}
+
+ html{
+    background-image: url("windmill.jpg");
+    
+    height: 170%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+}
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+
+h1, h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    
+
+
+
+/* Set the apperance of the class, chart */
+.chart{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:330px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 220px;
+    overflow: auto;
+    margin-bottom: 10vh;
+}
+    
+.card{
+    background: white;
+    width: 330px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
+
+/* Set the apperance for a particular chart */
+#Chart3{
+    border-color: green; 
+    border-width: 5px  
+}
+
+a{
+    outline: none;
+}
+
+footer{
+    height: 220px;
+    position: relative;
+    clear: both;
+    margin-top: -10px;
+}
+
+.footer-content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color:white;
+    background-color: rgb(38, 71, 118);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.footer-content h3{
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-top p{
+    max-width: 50px;
+    margin: 2px auto;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+a:link, a:visited{
+    color:aliceblue;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 210,128);
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+a:focus{
+    color: rgb(255,210,128);
+    text-decoration: none;
+}
+
+.footer-content .footer-bottom{
+    text-align: center;
+    padding-top:100px;
+    opacity:0.8;
+    font-size: 12px;
+    margin-bottom: 0;
+    color: black;
+    font-family: sans-serif;
+}
+
+.portfolio_container {
+    align-items: center;
+    justify-self: center;
+    margin: 100;
+    height: 120vh;
+    background-color: var(--white);
+    z-index: 1;
+    min-width: 100%;
+    max-width: 500px;
+    max-height: 2300px;
+    padding: 20 15px;
+  }
+
+  .portfolio_container { position: relative; }
+.portfolio_container video {
+  position:relative;
+  z-index: -1;
+}
+
+#portfolio_bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
