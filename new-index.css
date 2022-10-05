@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.homepage_container {
+    align-items: center;
+    justify-self: center;
+    margin: 100;
+    height: 120vh;
+    background-color: var(--white);
+    z-index: 1;
+    min-width: 100%;
+    max-width: 500px;
+    max-height: 2300px;
+    padding: 20 15px;
+  }
+
+  .homepage_container { position: relative; }
+.homepage_container video {
+  position:relative;
+  z-index: -1;
+}
+
+#homepage_bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    
+  }
+
+  .homepage-content{
+    position: relative;
+    top: 32%;
+    left: 0%;
+    min-width: 100%;
+    height: 620px;
+    z-index: 1;
+
+  }
+
+
+  .homepage-buttons button{
+    display: inline-block;
+    z-index: 2;
+    font-size: 2rem;
+    align-items: center;
+    padding: 0px;
+    width: 24%
+    height: 200px;
+    margin: 0px;
+    outline: solid;
+    cursor: pointer;
+    justify-content: center;
+    border: 3px ;
+
+  }
+
+  .flex-parent{
+    display: flex;
+  }
+
+  .jc-center{
+    justify-content: center;
+  }
+
+  button.margin-right{
+    margin-right: 50px;
+    font-size: 1.5rem;
+  }
+
+  button.projectbutton{
+    font-size: 1.5rem;
+  }
+
+
