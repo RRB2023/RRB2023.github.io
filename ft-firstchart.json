@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Total IMF credit outstanding ",
-    "subtitle": "in billions, for all members from 1984-2022",
+    "subtitle": "($bn), for all members from 1984-2022. Source: IMF",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 11,
     "anchor": "start",
