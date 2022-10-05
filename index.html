@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title for the page -->
-    <title>Homepage-Portfolio</title>
+    <title>Document</title>
 
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index2.css">
@@ -32,7 +32,7 @@
             <div class="card">
                 <div class="category" style="color: green;">
                 <span>
-                    <span style="color: blue;" class="tag">Week 1-Embedding Graphs</span>
+                    <span style="color: blue;" class="tag">Week 1 - Embedding Graphs</span>
                 </span>
             </div>
             <div class="chart" id="Chart3"></div>
@@ -42,11 +42,21 @@
             <div class="card">
                 <div class="category" style="color: green;">
                 <span>
-                    <span style="color: blue;" class="tag">Week 1-Embedding Graohs</span>
+                    <span style="color: blue;" class="tag">Week 1 - Embedding Graohs</span>
                 </span>
             </div> 
             <div class="chart" id="Chart4"></div>
             <p>This second chart is an interactive chart that looks at the nominal quarterly GDP of the UK between 1955-2021.</p>
+            </div>
+
+            <div class="card">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Week 2 - Charts hosted on Github </span>
+                </span>
+            </div>
+            <div class="chart" id="Chart5"></div>
+            <p>This chart shows IMF lending outstanding and is hosted on my Github account.</p>
             </div>
 
             
@@ -71,10 +81,12 @@
     var myChart2 = "chart2_ukProductivity.json";
     var myChart3 = "chart3.json";
     var myChart4 = "chart4_sizeofUKeconomy.json";
+    var myChart5 = "ft-first.json";
 
     // Embed charts:
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
 </script>
 
 <footer>
