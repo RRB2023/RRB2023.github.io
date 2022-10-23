@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Total IMF credit outstanding ",
+    "subtitle": "Lending to all IMF members, SDRs (bn). Source: IMF",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/IMFcreditoutstandingdataclean.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "bar", "color": "#21a3b9"},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {"title": null, "grid": false, "ticks": false, "labelAngle": 0}
+    },
+    "y": {
+      "field": "total_billion",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": false}
+    }
+  },
+  "config": {}
+}
