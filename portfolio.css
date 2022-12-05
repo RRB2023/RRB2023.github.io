@@ -53,7 +53,7 @@ p{
     margin: 0px;
     padding: 0px;
     padding-top: 3px;
-    height: 350px;
+    height: 360px;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -63,7 +63,36 @@ p{
     border-radius: 5px;
     border-color: green;
     
-    
+}
+
+.chart5{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 345px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+}
+
+.chart6{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
 }
 
 .container{
@@ -87,14 +116,30 @@ p{
     border: green solid 6px;
 }
 
+.card2{
+    background: white;
+    width: 500px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
+
 /* Set the apperance for a particular chart */
 #Chart3{
     border-color: green; 
-    border-width: 5px  
+    border-width: 5px;  
 }
 
 a{
     outline: none;
+}
+
+#Chart6{
+    border-color: green;
+    border-width: 5px;
+    
 }
 
 footer{
