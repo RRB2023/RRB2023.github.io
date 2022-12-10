@@ -1,0 +1,4707 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "title": {
+    "text": "Annual CO2 emissions (1905-2021)",
+    "subtitle": "CO2 emissions from fossil fuels and industry. Source: Our World in Data based on the Global Carbon Project (2022)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11
+  },
+  "data": {
+    "values": [
+      {
+        "Country ": "China",
+        "\"Year\"": 1905,
+        "Annual Carbon Dioxide emissions": 0,
+        "CO2 emissions (billions)": 0,
+        "C02 emissions (millions)": 0,
+        "Year ": "\"1905\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1906,
+        "Annual Carbon Dioxide emissions": 0,
+        "CO2 emissions (billions)": 0,
+        "C02 emissions (millions)": 0,
+        "Year ": "\"1906\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1907,
+        "Annual Carbon Dioxide emissions": 19893872,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 19.89,
+        "Year ": "\"1907\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1908,
+        "Annual Carbon Dioxide emissions": 22735854,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 22.74,
+        "Year ": "\"1908\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1909,
+        "Annual Carbon Dioxide emissions": 24251576,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 24.25,
+        "Year ": "\"1909\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1910,
+        "Annual Carbon Dioxide emissions": 25009438,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 25.01,
+        "Year ": "\"1910\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1911,
+        "Annual Carbon Dioxide emissions": 24630506,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 24.63,
+        "Year ": "\"1911\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1912,
+        "Annual Carbon Dioxide emissions": 17029154,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 17.03,
+        "Year ": "\"1912\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1913,
+        "Annual Carbon Dioxide emissions": 24251576,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 24.25,
+        "Year ": "\"1913\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1914,
+        "Annual Carbon Dioxide emissions": 26718416,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 26.72,
+        "Year ": "\"1914\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1915,
+        "Annual Carbon Dioxide emissions": 25420578,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 25.42,
+        "Year ": "\"1915\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1916,
+        "Annual Carbon Dioxide emissions": 30130690,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 30.13,
+        "Year ": "\"1916\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1917,
+        "Annual Carbon Dioxide emissions": 32023448,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 32.02,
+        "Year ": "\"1917\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1918,
+        "Annual Carbon Dioxide emissions": 34747964,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 34.75,
+        "Year ": "\"1918\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1919,
+        "Annual Carbon Dioxide emissions": 37997296,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 38,
+        "Year ": "\"1919\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1920,
+        "Annual Carbon Dioxide emissions": 40278456,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 40.28,
+        "Year ": "\"1920\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1921,
+        "Annual Carbon Dioxide emissions": 38762732,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 38.76,
+        "Year ": "\"1921\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1922,
+        "Annual Carbon Dioxide emissions": 39971524,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 39.97,
+        "Year ": "\"1922\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1923,
+        "Annual Carbon Dioxide emissions": 46517556,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 46.52,
+        "Year ": "\"1923\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1924,
+        "Annual Carbon Dioxide emissions": 48846084,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 48.85,
+        "Year ": "\"1924\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1925,
+        "Annual Carbon Dioxide emissions": 45954840,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 45.95,
+        "Year ": "\"1925\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1926,
+        "Annual Carbon Dioxide emissions": 43660164,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 43.66,
+        "Year ": "\"1926\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1927,
+        "Annual Carbon Dioxide emissions": 45808580,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 45.81,
+        "Year ": "\"1927\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1928,
+        "Annual Carbon Dioxide emissions": 47591444,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 47.59,
+        "Year ": "\"1928\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1929,
+        "Annual Carbon Dioxide emissions": 48281828,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 48.28,
+        "Year ": "\"1929\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1930,
+        "Annual Carbon Dioxide emissions": 49558456,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 49.56,
+        "Year ": "\"1930\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1931,
+        "Annual Carbon Dioxide emissions": 51904660,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 51.9,
+        "Year ": "\"1931\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1932,
+        "Annual Carbon Dioxide emissions": 50269150,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 50.27,
+        "Year ": "\"1932\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1933,
+        "Annual Carbon Dioxide emissions": 54111180,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 54.11,
+        "Year ": "\"1933\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1934,
+        "Annual Carbon Dioxide emissions": 62382628,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 62.38,
+        "Year ": "\"1934\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1935,
+        "Annual Carbon Dioxide emissions": 72645970,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 72.65,
+        "Year ": "\"1935\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1936,
+        "Annual Carbon Dioxide emissions": 75477250,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 75.48,
+        "Year ": "\"1936\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1937,
+        "Annual Carbon Dioxide emissions": 70968650,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 70.97,
+        "Year ": "\"1937\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1938,
+        "Annual Carbon Dioxide emissions": 61365520,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 61.37,
+        "Year ": "\"1938\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1939,
+        "Annual Carbon Dioxide emissions": 74426990,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 74.43,
+        "Year ": "\"1939\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1940,
+        "Annual Carbon Dioxide emissions": 90790530,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 90.79,
+        "Year ": "\"1940\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1941,
+        "Annual Carbon Dioxide emissions": 113978570,
+        "CO2 emissions (billions)": 0.11,
+        "C02 emissions (millions)": 113.98,
+        "Year ": "\"1941\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1942,
+        "Annual Carbon Dioxide emissions": 127613384,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 127.61,
+        "Year ": "\"1942\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1943,
+        "Annual Carbon Dioxide emissions": 108994540,
+        "CO2 emissions (billions)": 0.11,
+        "C02 emissions (millions)": 108.99,
+        "Year ": "\"1943\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1944,
+        "Annual Carbon Dioxide emissions": 103003570,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 103,
+        "Year ": "\"1944\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1945,
+        "Annual Carbon Dioxide emissions": 55892210,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 55.89,
+        "Year ": "\"1945\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1946,
+        "Annual Carbon Dioxide emissions": 36107050,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 36.11,
+        "Year ": "\"1946\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1947,
+        "Annual Carbon Dioxide emissions": 41836136,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 41.84,
+        "Year ": "\"1947\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1948,
+        "Annual Carbon Dioxide emissions": 38400104,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 38.4,
+        "Year ": "\"1948\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1949,
+        "Annual Carbon Dioxide emissions": 62081100,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 62.08,
+        "Year ": "\"1949\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1950,
+        "Annual Carbon Dioxide emissions": 78835290,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 78.84,
+        "Year ": "\"1950\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1951,
+        "Annual Carbon Dioxide emissions": 102115210,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 102.12,
+        "Year ": "\"1951\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1952,
+        "Annual Carbon Dioxide emissions": 127999330,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 128,
+        "Year ": "\"1952\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1953,
+        "Annual Carbon Dioxide emissions": 133782880,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 133.78,
+        "Year ": "\"1953\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1954,
+        "Annual Carbon Dioxide emissions": 160877400,
+        "CO2 emissions (billions)": 0.16,
+        "C02 emissions (millions)": 160.88,
+        "Year ": "\"1954\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1955,
+        "Annual Carbon Dioxide emissions": 190521460,
+        "CO2 emissions (billions)": 0.19,
+        "C02 emissions (millions)": 190.52,
+        "Year ": "\"1955\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1956,
+        "Annual Carbon Dioxide emissions": 215823980,
+        "CO2 emissions (billions)": 0.22,
+        "C02 emissions (millions)": 215.82,
+        "Year ": "\"1956\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1957,
+        "Annual Carbon Dioxide emissions": 255784960,
+        "CO2 emissions (billions)": 0.26,
+        "C02 emissions (millions)": 255.78,
+        "Year ": "\"1957\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1958,
+        "Annual Carbon Dioxide emissions": 524617060,
+        "CO2 emissions (billions)": 0.52,
+        "C02 emissions (millions)": 524.62,
+        "Year ": "\"1958\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1959,
+        "Annual Carbon Dioxide emissions": 720151550,
+        "CO2 emissions (billions)": 0.72,
+        "C02 emissions (millions)": 720.15,
+        "Year ": "\"1959\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1960,
+        "Annual Carbon Dioxide emissions": 798799940,
+        "CO2 emissions (billions)": 0.8,
+        "C02 emissions (millions)": 798.8,
+        "Year ": "\"1960\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1961,
+        "Annual Carbon Dioxide emissions": 570630200,
+        "CO2 emissions (billions)": 0.57,
+        "C02 emissions (millions)": 570.63,
+        "Year ": "\"1961\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1962,
+        "Annual Carbon Dioxide emissions": 459618080,
+        "CO2 emissions (billions)": 0.46,
+        "C02 emissions (millions)": 459.62,
+        "Year ": "\"1962\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1963,
+        "Annual Carbon Dioxide emissions": 456779460,
+        "CO2 emissions (billions)": 0.46,
+        "C02 emissions (millions)": 456.78,
+        "Year ": "\"1963\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1964,
+        "Annual Carbon Dioxide emissions": 460637100,
+        "CO2 emissions (billions)": 0.46,
+        "C02 emissions (millions)": 460.64,
+        "Year ": "\"1964\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1965,
+        "Annual Carbon Dioxide emissions": 500286370,
+        "CO2 emissions (billions)": 0.5,
+        "C02 emissions (millions)": 500.29,
+        "Year ": "\"1965\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1966,
+        "Annual Carbon Dioxide emissions": 549459260,
+        "CO2 emissions (billions)": 0.55,
+        "C02 emissions (millions)": 549.46,
+        "Year ": "\"1966\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1967,
+        "Annual Carbon Dioxide emissions": 460225900,
+        "CO2 emissions (billions)": 0.46,
+        "C02 emissions (millions)": 460.23,
+        "Year ": "\"1967\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1968,
+        "Annual Carbon Dioxide emissions": 495506560,
+        "CO2 emissions (billions)": 0.5,
+        "C02 emissions (millions)": 495.51,
+        "Year ": "\"1968\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1969,
+        "Annual Carbon Dioxide emissions": 607683300,
+        "CO2 emissions (billions)": 0.61,
+        "C02 emissions (millions)": 607.68,
+        "Year ": "\"1969\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1970,
+        "Annual Carbon Dioxide emissions": 807952640,
+        "CO2 emissions (billions)": 0.81,
+        "C02 emissions (millions)": 807.95,
+        "Year ": "\"1970\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1971,
+        "Annual Carbon Dioxide emissions": 909209700,
+        "CO2 emissions (billions)": 0.91,
+        "C02 emissions (millions)": 909.21,
+        "Year ": "\"1971\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1972,
+        "Annual Carbon Dioxide emissions": 968645570,
+        "CO2 emissions (billions)": 0.97,
+        "C02 emissions (millions)": 968.65,
+        "Year ": "\"1972\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1973,
+        "Annual Carbon Dioxide emissions": 1008292600,
+        "CO2 emissions (billions)": 1.01,
+        "C02 emissions (millions)": 1008.29,
+        "Year ": "\"1973\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1974,
+        "Annual Carbon Dioxide emissions": 1028099840,
+        "CO2 emissions (billions)": 1.03,
+        "C02 emissions (millions)": 1028.1,
+        "Year ": "\"1974\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1975,
+        "Annual Carbon Dioxide emissions": 1183215000,
+        "CO2 emissions (billions)": 1.18,
+        "C02 emissions (millions)": 1183.22,
+        "Year ": "\"1975\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1976,
+        "Annual Carbon Dioxide emissions": 1226421200,
+        "CO2 emissions (billions)": 1.23,
+        "C02 emissions (millions)": 1226.42,
+        "Year ": "\"1976\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1977,
+        "Annual Carbon Dioxide emissions": 1340831100,
+        "CO2 emissions (billions)": 1.34,
+        "C02 emissions (millions)": 1340.83,
+        "Year ": "\"1977\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1978,
+        "Annual Carbon Dioxide emissions": 1492777900,
+        "CO2 emissions (billions)": 1.49,
+        "C02 emissions (millions)": 1492.78,
+        "Year ": "\"1978\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1979,
+        "Annual Carbon Dioxide emissions": 1525661200,
+        "CO2 emissions (billions)": 1.53,
+        "C02 emissions (millions)": 1525.66,
+        "Year ": "\"1979\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1980,
+        "Annual Carbon Dioxide emissions": 1494495900,
+        "CO2 emissions (billions)": 1.49,
+        "C02 emissions (millions)": 1494.5,
+        "Year ": "\"1980\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1981,
+        "Annual Carbon Dioxide emissions": 1476487800,
+        "CO2 emissions (billions)": 1.48,
+        "C02 emissions (millions)": 1476.49,
+        "Year ": "\"1981\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1982,
+        "Annual Carbon Dioxide emissions": 1606585000,
+        "CO2 emissions (billions)": 1.61,
+        "C02 emissions (millions)": 1606.59,
+        "Year ": "\"1982\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1983,
+        "Annual Carbon Dioxide emissions": 1694216800,
+        "CO2 emissions (billions)": 1.69,
+        "C02 emissions (millions)": 1694.22,
+        "Year ": "\"1983\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1984,
+        "Annual Carbon Dioxide emissions": 1844828000,
+        "CO2 emissions (billions)": 1.84,
+        "C02 emissions (millions)": 1844.83,
+        "Year ": "\"1984\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1985,
+        "Annual Carbon Dioxide emissions": 1998083000,
+        "CO2 emissions (billions)": 2,
+        "C02 emissions (millions)": 1998.08,
+        "Year ": "\"1985\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1986,
+        "Annual Carbon Dioxide emissions": 2104213400,
+        "CO2 emissions (billions)": 2.1,
+        "C02 emissions (millions)": 2104.21,
+        "Year ": "\"1986\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1987,
+        "Annual Carbon Dioxide emissions": 2257738500,
+        "CO2 emissions (billions)": 2.26,
+        "C02 emissions (millions)": 2257.74,
+        "Year ": "\"1987\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1988,
+        "Annual Carbon Dioxide emissions": 2425893600,
+        "CO2 emissions (billions)": 2.43,
+        "C02 emissions (millions)": 2425.89,
+        "Year ": "\"1988\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1989,
+        "Annual Carbon Dioxide emissions": 2463654400,
+        "CO2 emissions (billions)": 2.46,
+        "C02 emissions (millions)": 2463.65,
+        "Year ": "\"1989\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1990,
+        "Annual Carbon Dioxide emissions": 2484854800,
+        "CO2 emissions (billions)": 2.48,
+        "C02 emissions (millions)": 2484.85,
+        "Year ": "\"1990\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1991,
+        "Annual Carbon Dioxide emissions": 2606096100,
+        "CO2 emissions (billions)": 2.61,
+        "C02 emissions (millions)": 2606.1,
+        "Year ": "\"1991\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1992,
+        "Annual Carbon Dioxide emissions": 2730787600,
+        "CO2 emissions (billions)": 2.73,
+        "C02 emissions (millions)": 2730.79,
+        "Year ": "\"1992\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1993,
+        "Annual Carbon Dioxide emissions": 2921651000,
+        "CO2 emissions (billions)": 2.92,
+        "C02 emissions (millions)": 2921.65,
+        "Year ": "\"1993\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1994,
+        "Annual Carbon Dioxide emissions": 3100002000,
+        "CO2 emissions (billions)": 3.1,
+        "C02 emissions (millions)": 3100,
+        "Year ": "\"1994\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1995,
+        "Annual Carbon Dioxide emissions": 3357909000,
+        "CO2 emissions (billions)": 3.36,
+        "C02 emissions (millions)": 3357.91,
+        "Year ": "\"1995\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1996,
+        "Annual Carbon Dioxide emissions": 3503233500,
+        "CO2 emissions (billions)": 3.5,
+        "C02 emissions (millions)": 3503.23,
+        "Year ": "\"1996\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1997,
+        "Annual Carbon Dioxide emissions": 3510169000,
+        "CO2 emissions (billions)": 3.51,
+        "C02 emissions (millions)": 3510.17,
+        "Year ": "\"1997\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1998,
+        "Annual Carbon Dioxide emissions": 3360455400,
+        "CO2 emissions (billions)": 3.36,
+        "C02 emissions (millions)": 3360.46,
+        "Year ": "\"1998\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 1999,
+        "Annual Carbon Dioxide emissions": 3552842000,
+        "CO2 emissions (billions)": 3.55,
+        "C02 emissions (millions)": 3552.84,
+        "Year ": "\"1999\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2000,
+        "Annual Carbon Dioxide emissions": 3644464000,
+        "CO2 emissions (billions)": 3.64,
+        "C02 emissions (millions)": 3644.46,
+        "Year ": "\"2000\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2001,
+        "Annual Carbon Dioxide emissions": 3723730700,
+        "CO2 emissions (billions)": 3.72,
+        "C02 emissions (millions)": 3723.73,
+        "Year ": "\"2001\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2002,
+        "Annual Carbon Dioxide emissions": 4112459000,
+        "CO2 emissions (billions)": 4.11,
+        "C02 emissions (millions)": 4112.46,
+        "Year ": "\"2002\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2003,
+        "Annual Carbon Dioxide emissions": 4827446000,
+        "CO2 emissions (billions)": 4.83,
+        "C02 emissions (millions)": 4827.45,
+        "Year ": "\"2003\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2004,
+        "Annual Carbon Dioxide emissions": 5223755000,
+        "CO2 emissions (billions)": 5.22,
+        "C02 emissions (millions)": 5223.76,
+        "Year ": "\"2004\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2005,
+        "Annual Carbon Dioxide emissions": 5876555300,
+        "CO2 emissions (billions)": 5.88,
+        "C02 emissions (millions)": 5876.56,
+        "Year ": "\"2005\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2006,
+        "Annual Carbon Dioxide emissions": 6488804000,
+        "CO2 emissions (billions)": 6.49,
+        "C02 emissions (millions)": 6488.8,
+        "Year ": "\"2006\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2007,
+        "Annual Carbon Dioxide emissions": 6978611700,
+        "CO2 emissions (billions)": 6.98,
+        "C02 emissions (millions)": 6978.61,
+        "Year ": "\"2007\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2008,
+        "Annual Carbon Dioxide emissions": 7496832000,
+        "CO2 emissions (billions)": 7.5,
+        "C02 emissions (millions)": 7496.83,
+        "Year ": "\"2008\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2009,
+        "Annual Carbon Dioxide emissions": 7886532600,
+        "CO2 emissions (billions)": 7.89,
+        "C02 emissions (millions)": 7886.53,
+        "Year ": "\"2009\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2010,
+        "Annual Carbon Dioxide emissions": 8616653000,
+        "CO2 emissions (billions)": 8.62,
+        "C02 emissions (millions)": 8616.65,
+        "Year ": "\"2010\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2011,
+        "Annual Carbon Dioxide emissions": 9528556000,
+        "CO2 emissions (billions)": 9.53,
+        "C02 emissions (millions)": 9528.56,
+        "Year ": "\"2011\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2012,
+        "Annual Carbon Dioxide emissions": 9779281000,
+        "CO2 emissions (billions)": 9.78,
+        "C02 emissions (millions)": 9779.28,
+        "Year ": "\"2012\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2013,
+        "Annual Carbon Dioxide emissions": 9956309000,
+        "CO2 emissions (billions)": 9.96,
+        "C02 emissions (millions)": 9956.31,
+        "Year ": "\"2013\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2014,
+        "Annual Carbon Dioxide emissions": 9998621000,
+        "CO2 emissions (billions)": 10,
+        "C02 emissions (millions)": 9998.62,
+        "Year ": "\"2014\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2015,
+        "Annual Carbon Dioxide emissions": 9866905000,
+        "CO2 emissions (billions)": 9.87,
+        "C02 emissions (millions)": 9866.91,
+        "Year ": "\"2015\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2016,
+        "Annual Carbon Dioxide emissions": 9764980000,
+        "CO2 emissions (billions)": 9.76,
+        "C02 emissions (millions)": 9764.98,
+        "Year ": "\"2016\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2017,
+        "Annual Carbon Dioxide emissions": 10011107000,
+        "CO2 emissions (billions)": 10.01,
+        "C02 emissions (millions)": 10011.11,
+        "Year ": "\"2017\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2018,
+        "Annual Carbon Dioxide emissions": 10353877000,
+        "CO2 emissions (billions)": 10.35,
+        "C02 emissions (millions)": 10353.88,
+        "Year ": "\"2018\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2019,
+        "Annual Carbon Dioxide emissions": 10740996000,
+        "CO2 emissions (billions)": 10.74,
+        "C02 emissions (millions)": 10741,
+        "Year ": "\"2019\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2020,
+        "Annual Carbon Dioxide emissions": 10956213000,
+        "CO2 emissions (billions)": 10.96,
+        "C02 emissions (millions)": 10956.21,
+        "Year ": "\"2020\""
+      },
+      {
+        "Country ": "China",
+        "\"Year\"": 2021,
+        "Annual Carbon Dioxide emissions": 11472369000,
+        "CO2 emissions (billions)": 11.47,
+        "C02 emissions (millions)": 11472.37,
+        "Year ": "\"2021\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1905,
+        "Annual Carbon Dioxide emissions": 16930738,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 16.93,
+        "Year ": "\"1905\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1906,
+        "Annual Carbon Dioxide emissions": 19549438,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 19.55,
+        "Year ": "\"1906\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1907,
+        "Annual Carbon Dioxide emissions": 21772426,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 21.77,
+        "Year ": "\"1907\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1908,
+        "Annual Carbon Dioxide emissions": 24908272,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 24.91,
+        "Year ": "\"1908\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1909,
+        "Annual Carbon Dioxide emissions": 24142678,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 24.14,
+        "Year ": "\"1909\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1910,
+        "Annual Carbon Dioxide emissions": 23487344,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 23.49,
+        "Year ": "\"1910\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1911,
+        "Annual Carbon Dioxide emissions": 24782474,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 24.78,
+        "Year ": "\"1911\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1912,
+        "Annual Carbon Dioxide emissions": 28521480,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 28.52,
+        "Year ": "\"1912\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1913,
+        "Annual Carbon Dioxide emissions": 31466798,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 31.47,
+        "Year ": "\"1913\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1914,
+        "Annual Carbon Dioxide emissions": 31698182,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 31.7,
+        "Year ": "\"1914\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1915,
+        "Annual Carbon Dioxide emissions": 33141762,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 33.14,
+        "Year ": "\"1915\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1916,
+        "Annual Carbon Dioxide emissions": 33517548,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 33.52,
+        "Year ": "\"1916\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1917,
+        "Annual Carbon Dioxide emissions": 35019810,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 35.02,
+        "Year ": "\"1917\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1918,
+        "Annual Carbon Dioxide emissions": 39359360,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 39.36,
+        "Year ": "\"1918\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1919,
+        "Annual Carbon Dioxide emissions": 42974810,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 42.97,
+        "Year ": "\"1919\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1920,
+        "Annual Carbon Dioxide emissions": 34868020,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 34.87,
+        "Year ": "\"1920\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1921,
+        "Annual Carbon Dioxide emissions": 37505560,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 37.51,
+        "Year ": "\"1921\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1922,
+        "Annual Carbon Dioxide emissions": 36903416,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 36.9,
+        "Year ": "\"1922\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1923,
+        "Annual Carbon Dioxide emissions": 37971936,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 37.97,
+        "Year ": "\"1923\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1924,
+        "Annual Carbon Dioxide emissions": 40628000,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 40.63,
+        "Year ": "\"1924\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1925,
+        "Annual Carbon Dioxide emissions": 40084972,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 40.08,
+        "Year ": "\"1925\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1926,
+        "Annual Carbon Dioxide emissions": 39942630,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 39.94,
+        "Year ": "\"1926\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1927,
+        "Annual Carbon Dioxide emissions": 41883844,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 41.88,
+        "Year ": "\"1927\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1928,
+        "Annual Carbon Dioxide emissions": 40073010,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 40.07,
+        "Year ": "\"1928\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1929,
+        "Annual Carbon Dioxide emissions": 41707932,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 41.71,
+        "Year ": "\"1929\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1930,
+        "Annual Carbon Dioxide emissions": 42399550,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 42.4,
+        "Year ": "\"1930\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1931,
+        "Annual Carbon Dioxide emissions": 38851076,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 38.85,
+        "Year ": "\"1931\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1932,
+        "Annual Carbon Dioxide emissions": 36129520,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 36.13,
+        "Year ": "\"1932\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1933,
+        "Annual Carbon Dioxide emissions": 35467388,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 35.47,
+        "Year ": "\"1933\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1934,
+        "Annual Carbon Dioxide emissions": 39611080,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 39.61,
+        "Year ": "\"1934\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1935,
+        "Annual Carbon Dioxide emissions": 41393252,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 41.39,
+        "Year ": "\"1935\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1936,
+        "Annual Carbon Dioxide emissions": 40684530,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 40.68,
+        "Year ": "\"1936\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1937,
+        "Annual Carbon Dioxide emissions": 45067340,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 45.07,
+        "Year ": "\"1937\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1938,
+        "Annual Carbon Dioxide emissions": 50379724,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 50.38,
+        "Year ": "\"1938\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1939,
+        "Annual Carbon Dioxide emissions": 49312292,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 49.31,
+        "Year ": "\"1939\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1940,
+        "Annual Carbon Dioxide emissions": 52309590,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 52.31,
+        "Year ": "\"1940\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1941,
+        "Annual Carbon Dioxide emissions": 53581170,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 53.58,
+        "Year ": "\"1941\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1942,
+        "Annual Carbon Dioxide emissions": 53529604,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 53.53,
+        "Year ": "\"1942\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1943,
+        "Annual Carbon Dioxide emissions": 46644484,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 46.64,
+        "Year ": "\"1943\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1944,
+        "Annual Carbon Dioxide emissions": 47696050,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 47.7,
+        "Year ": "\"1944\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1945,
+        "Annual Carbon Dioxide emissions": 52874104,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 52.87,
+        "Year ": "\"1945\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1946,
+        "Annual Carbon Dioxide emissions": 52225064,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 52.23,
+        "Year ": "\"1946\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1947,
+        "Annual Carbon Dioxide emissions": 53180348,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 53.18,
+        "Year ": "\"1947\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1948,
+        "Annual Carbon Dioxide emissions": 53204148,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 53.2,
+        "Year ": "\"1948\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1949,
+        "Annual Carbon Dioxide emissions": 56187910,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 56.19,
+        "Year ": "\"1949\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1950,
+        "Annual Carbon Dioxide emissions": 61102630,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 61.1,
+        "Year ": "\"1950\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1951,
+        "Annual Carbon Dioxide emissions": 64022190,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 64.02,
+        "Year ": "\"1951\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1952,
+        "Annual Carbon Dioxide emissions": 67426220,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 67.43,
+        "Year ": "\"1952\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1953,
+        "Annual Carbon Dioxide emissions": 68704904,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 68.7,
+        "Year ": "\"1953\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1954,
+        "Annual Carbon Dioxide emissions": 72413710,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 72.41,
+        "Year ": "\"1954\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1955,
+        "Annual Carbon Dioxide emissions": 78787820,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 78.79,
+        "Year ": "\"1955\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1956,
+        "Annual Carbon Dioxide emissions": 81656450,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 81.66,
+        "Year ": "\"1956\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1957,
+        "Annual Carbon Dioxide emissions": 91635460,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 91.64,
+        "Year ": "\"1957\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1958,
+        "Annual Carbon Dioxide emissions": 95815880,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 95.82,
+        "Year ": "\"1958\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1959,
+        "Annual Carbon Dioxide emissions": 101447370,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 101.45,
+        "Year ": "\"1959\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1960,
+        "Annual Carbon Dioxide emissions": 111325176,
+        "CO2 emissions (billions)": 0.11,
+        "C02 emissions (millions)": 111.33,
+        "Year ": "\"1960\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1961,
+        "Annual Carbon Dioxide emissions": 120404400,
+        "CO2 emissions (billions)": 0.12,
+        "C02 emissions (millions)": 120.4,
+        "Year ": "\"1961\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1962,
+        "Annual Carbon Dioxide emissions": 132581680,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 132.58,
+        "Year ": "\"1962\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1963,
+        "Annual Carbon Dioxide emissions": 142444290,
+        "CO2 emissions (billions)": 0.14,
+        "C02 emissions (millions)": 142.44,
+        "Year ": "\"1963\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1964,
+        "Annual Carbon Dioxide emissions": 139488400,
+        "CO2 emissions (billions)": 0.14,
+        "C02 emissions (millions)": 139.49,
+        "Year ": "\"1964\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1965,
+        "Annual Carbon Dioxide emissions": 153702100,
+        "CO2 emissions (billions)": 0.15,
+        "C02 emissions (millions)": 153.7,
+        "Year ": "\"1965\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1966,
+        "Annual Carbon Dioxide emissions": 159373570,
+        "CO2 emissions (billions)": 0.16,
+        "C02 emissions (millions)": 159.37,
+        "Year ": "\"1966\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1967,
+        "Annual Carbon Dioxide emissions": 159556000,
+        "CO2 emissions (billions)": 0.16,
+        "C02 emissions (millions)": 159.56,
+        "Year ": "\"1967\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1968,
+        "Annual Carbon Dioxide emissions": 174069500,
+        "CO2 emissions (billions)": 0.17,
+        "C02 emissions (millions)": 174.07,
+        "Year ": "\"1968\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1969,
+        "Annual Carbon Dioxide emissions": 177413540,
+        "CO2 emissions (billions)": 0.18,
+        "C02 emissions (millions)": 177.41,
+        "Year ": "\"1969\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1970,
+        "Annual Carbon Dioxide emissions": 181722820,
+        "CO2 emissions (billions)": 0.18,
+        "C02 emissions (millions)": 181.72,
+        "Year ": "\"1970\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1971,
+        "Annual Carbon Dioxide emissions": 191963860,
+        "CO2 emissions (billions)": 0.19,
+        "C02 emissions (millions)": 191.96,
+        "Year ": "\"1971\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1972,
+        "Annual Carbon Dioxide emissions": 203036160,
+        "CO2 emissions (billions)": 0.2,
+        "C02 emissions (millions)": 203.04,
+        "Year ": "\"1972\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1973,
+        "Annual Carbon Dioxide emissions": 209095230,
+        "CO2 emissions (billions)": 0.21,
+        "C02 emissions (millions)": 209.1,
+        "Year ": "\"1973\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1974,
+        "Annual Carbon Dioxide emissions": 215853380,
+        "CO2 emissions (billions)": 0.22,
+        "C02 emissions (millions)": 215.85,
+        "Year ": "\"1974\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1975,
+        "Annual Carbon Dioxide emissions": 234209330,
+        "CO2 emissions (billions)": 0.23,
+        "C02 emissions (millions)": 234.21,
+        "Year ": "\"1975\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1976,
+        "Annual Carbon Dioxide emissions": 244749580,
+        "CO2 emissions (billions)": 0.24,
+        "C02 emissions (millions)": 244.75,
+        "Year ": "\"1976\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1977,
+        "Annual Carbon Dioxide emissions": 258961970,
+        "CO2 emissions (billions)": 0.26,
+        "C02 emissions (millions)": 258.96,
+        "Year ": "\"1977\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1978,
+        "Annual Carbon Dioxide emissions": 263149780,
+        "CO2 emissions (billions)": 0.26,
+        "C02 emissions (millions)": 263.15,
+        "Year ": "\"1978\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1979,
+        "Annual Carbon Dioxide emissions": 276284960,
+        "CO2 emissions (billions)": 0.28,
+        "C02 emissions (millions)": 276.28,
+        "Year ": "\"1979\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1980,
+        "Annual Carbon Dioxide emissions": 291711360,
+        "CO2 emissions (billions)": 0.29,
+        "C02 emissions (millions)": 291.71,
+        "Year ": "\"1980\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1981,
+        "Annual Carbon Dioxide emissions": 314966460,
+        "CO2 emissions (billions)": 0.31,
+        "C02 emissions (millions)": 314.97,
+        "Year ": "\"1981\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1982,
+        "Annual Carbon Dioxide emissions": 325380320,
+        "CO2 emissions (billions)": 0.33,
+        "C02 emissions (millions)": 325.38,
+        "Year ": "\"1982\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1983,
+        "Annual Carbon Dioxide emissions": 352199170,
+        "CO2 emissions (billions)": 0.35,
+        "C02 emissions (millions)": 352.2,
+        "Year ": "\"1983\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1984,
+        "Annual Carbon Dioxide emissions": 361559740,
+        "CO2 emissions (billions)": 0.36,
+        "C02 emissions (millions)": 361.56,
+        "Year ": "\"1984\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1985,
+        "Annual Carbon Dioxide emissions": 397592480,
+        "CO2 emissions (billions)": 0.4,
+        "C02 emissions (millions)": 397.59,
+        "Year ": "\"1985\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1986,
+        "Annual Carbon Dioxide emissions": 426309760,
+        "CO2 emissions (billions)": 0.43,
+        "C02 emissions (millions)": 426.31,
+        "Year ": "\"1986\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1987,
+        "Annual Carbon Dioxide emissions": 455343460,
+        "CO2 emissions (billions)": 0.46,
+        "C02 emissions (millions)": 455.34,
+        "Year ": "\"1987\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1988,
+        "Annual Carbon Dioxide emissions": 491692600,
+        "CO2 emissions (billions)": 0.49,
+        "C02 emissions (millions)": 491.69,
+        "Year ": "\"1988\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1989,
+        "Annual Carbon Dioxide emissions": 540651500,
+        "CO2 emissions (billions)": 0.54,
+        "C02 emissions (millions)": 540.65,
+        "Year ": "\"1989\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1990,
+        "Annual Carbon Dioxide emissions": 577996540,
+        "CO2 emissions (billions)": 0.58,
+        "C02 emissions (millions)": 578,
+        "Year ": "\"1990\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1991,
+        "Annual Carbon Dioxide emissions": 615365500,
+        "CO2 emissions (billions)": 0.62,
+        "C02 emissions (millions)": 615.37,
+        "Year ": "\"1991\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1992,
+        "Annual Carbon Dioxide emissions": 655447550,
+        "CO2 emissions (billions)": 0.66,
+        "C02 emissions (millions)": 655.45,
+        "Year ": "\"1992\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1993,
+        "Annual Carbon Dioxide emissions": 677299800,
+        "CO2 emissions (billions)": 0.68,
+        "C02 emissions (millions)": 677.3,
+        "Year ": "\"1993\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1994,
+        "Annual Carbon Dioxide emissions": 716268600,
+        "CO2 emissions (billions)": 0.72,
+        "C02 emissions (millions)": 716.27,
+        "Year ": "\"1994\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1995,
+        "Annual Carbon Dioxide emissions": 761449200,
+        "CO2 emissions (billions)": 0.76,
+        "C02 emissions (millions)": 761.45,
+        "Year ": "\"1995\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1996,
+        "Annual Carbon Dioxide emissions": 825200830,
+        "CO2 emissions (billions)": 0.83,
+        "C02 emissions (millions)": 825.2,
+        "Year ": "\"1996\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1997,
+        "Annual Carbon Dioxide emissions": 858935100,
+        "CO2 emissions (billions)": 0.86,
+        "C02 emissions (millions)": 858.94,
+        "Year ": "\"1997\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1998,
+        "Annual Carbon Dioxide emissions": 876952060,
+        "CO2 emissions (billions)": 0.88,
+        "C02 emissions (millions)": 876.95,
+        "Year ": "\"1998\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 1999,
+        "Annual Carbon Dioxide emissions": 950950850,
+        "CO2 emissions (billions)": 0.95,
+        "C02 emissions (millions)": 950.95,
+        "Year ": "\"1999\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2000,
+        "Annual Carbon Dioxide emissions": 978103800,
+        "CO2 emissions (billions)": 0.98,
+        "C02 emissions (millions)": 978.1,
+        "Year ": "\"2000\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2001,
+        "Annual Carbon Dioxide emissions": 991731700,
+        "CO2 emissions (billions)": 0.99,
+        "C02 emissions (millions)": 991.73,
+        "Year ": "\"2001\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2002,
+        "Annual Carbon Dioxide emissions": 1022175200,
+        "CO2 emissions (billions)": 1.02,
+        "C02 emissions (millions)": 1022.18,
+        "Year ": "\"2002\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2003,
+        "Annual Carbon Dioxide emissions": 1058725300,
+        "CO2 emissions (billions)": 1.06,
+        "C02 emissions (millions)": 1058.73,
+        "Year ": "\"2003\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2004,
+        "Annual Carbon Dioxide emissions": 1124517800,
+        "CO2 emissions (billions)": 1.12,
+        "C02 emissions (millions)": 1124.52,
+        "Year ": "\"2004\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2005,
+        "Annual Carbon Dioxide emissions": 1184926500,
+        "CO2 emissions (billions)": 1.18,
+        "C02 emissions (millions)": 1184.93,
+        "Year ": "\"2005\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2006,
+        "Annual Carbon Dioxide emissions": 1258643300,
+        "CO2 emissions (billions)": 1.26,
+        "C02 emissions (millions)": 1258.64,
+        "Year ": "\"2006\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2007,
+        "Annual Carbon Dioxide emissions": 1356953100,
+        "CO2 emissions (billions)": 1.36,
+        "C02 emissions (millions)": 1356.95,
+        "Year ": "\"2007\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2008,
+        "Annual Carbon Dioxide emissions": 1461518300,
+        "CO2 emissions (billions)": 1.46,
+        "C02 emissions (millions)": 1461.52,
+        "Year ": "\"2008\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2009,
+        "Annual Carbon Dioxide emissions": 1611416200,
+        "CO2 emissions (billions)": 1.61,
+        "C02 emissions (millions)": 1611.42,
+        "Year ": "\"2009\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2010,
+        "Annual Carbon Dioxide emissions": 1676495000,
+        "CO2 emissions (billions)": 1.68,
+        "C02 emissions (millions)": 1676.5,
+        "Year ": "\"2010\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2011,
+        "Annual Carbon Dioxide emissions": 1778472600,
+        "CO2 emissions (billions)": 1.78,
+        "C02 emissions (millions)": 1778.47,
+        "Year ": "\"2011\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2012,
+        "Annual Carbon Dioxide emissions": 1962594300,
+        "CO2 emissions (billions)": 1.96,
+        "C02 emissions (millions)": 1962.59,
+        "Year ": "\"2012\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2013,
+        "Annual Carbon Dioxide emissions": 2037415600,
+        "CO2 emissions (billions)": 2.04,
+        "C02 emissions (millions)": 2037.42,
+        "Year ": "\"2013\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2014,
+        "Annual Carbon Dioxide emissions": 2187343000,
+        "CO2 emissions (billions)": 2.19,
+        "C02 emissions (millions)": 2187.34,
+        "Year ": "\"2014\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2015,
+        "Annual Carbon Dioxide emissions": 2270766000,
+        "CO2 emissions (billions)": 2.27,
+        "C02 emissions (millions)": 2270.77,
+        "Year ": "\"2015\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2016,
+        "Annual Carbon Dioxide emissions": 2383816000,
+        "CO2 emissions (billions)": 2.38,
+        "C02 emissions (millions)": 2383.82,
+        "Year ": "\"2016\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2017,
+        "Annual Carbon Dioxide emissions": 2434868000,
+        "CO2 emissions (billions)": 2.43,
+        "C02 emissions (millions)": 2434.87,
+        "Year ": "\"2017\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2018,
+        "Annual Carbon Dioxide emissions": 2600446500,
+        "CO2 emissions (billions)": 2.6,
+        "C02 emissions (millions)": 2600.45,
+        "Year ": "\"2018\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2019,
+        "Annual Carbon Dioxide emissions": 2626459400,
+        "CO2 emissions (billions)": 2.63,
+        "C02 emissions (millions)": 2626.46,
+        "Year ": "\"2019\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2020,
+        "Annual Carbon Dioxide emissions": 2445012000,
+        "CO2 emissions (billions)": 2.45,
+        "C02 emissions (millions)": 2445.01,
+        "Year ": "\"2020\""
+      },
+      {
+        "Country ": "India",
+        "\"Year\"": 2021,
+        "Annual Carbon Dioxide emissions": 2709683700,
+        "CO2 emissions (billions)": 2.71,
+        "C02 emissions (millions)": 2709.68,
+        "Year ": "\"2021\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1905,
+        "Annual Carbon Dioxide emissions": 29931216,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 29.93,
+        "Year ": "\"1905\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1906,
+        "Annual Carbon Dioxide emissions": 32855088,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 32.86,
+        "Year ": "\"1906\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1907,
+        "Annual Carbon Dioxide emissions": 35071810,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 35.07,
+        "Year ": "\"1907\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1908,
+        "Annual Carbon Dioxide emissions": 37632944,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 37.63,
+        "Year ": "\"1908\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1909,
+        "Annual Carbon Dioxide emissions": 38255824,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 38.26,
+        "Year ": "\"1909\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1910,
+        "Annual Carbon Dioxide emissions": 39384336,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 39.38,
+        "Year ": "\"1910\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1911,
+        "Annual Carbon Dioxide emissions": 44209824,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 44.21,
+        "Year ": "\"1911\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1912,
+        "Annual Carbon Dioxide emissions": 49280800,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 49.28,
+        "Year ": "\"1912\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1913,
+        "Annual Carbon Dioxide emissions": 54315136,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 54.32,
+        "Year ": "\"1913\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1914,
+        "Annual Carbon Dioxide emissions": 58015776,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 58.02,
+        "Year ": "\"1914\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1915,
+        "Annual Carbon Dioxide emissions": 52842210,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 52.84,
+        "Year ": "\"1915\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1916,
+        "Annual Carbon Dioxide emissions": 58598350,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 58.6,
+        "Year ": "\"1916\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1917,
+        "Annual Carbon Dioxide emissions": 67483550,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 67.48,
+        "Year ": "\"1917\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1918,
+        "Annual Carbon Dioxide emissions": 71543260,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 71.54,
+        "Year ": "\"1918\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1919,
+        "Annual Carbon Dioxide emissions": 79193700,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 79.19,
+        "Year ": "\"1919\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1920,
+        "Annual Carbon Dioxide emissions": 74280270,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 74.28,
+        "Year ": "\"1920\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1921,
+        "Annual Carbon Dioxide emissions": 66809380,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 66.81,
+        "Year ": "\"1921\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1922,
+        "Annual Carbon Dioxide emissions": 71429680,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 71.43,
+        "Year ": "\"1922\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1923,
+        "Annual Carbon Dioxide emissions": 75907090,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 75.91,
+        "Year ": "\"1923\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1924,
+        "Annual Carbon Dioxide emissions": 79347580,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 79.35,
+        "Year ": "\"1924\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1925,
+        "Annual Carbon Dioxide emissions": 82011310,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 82.01,
+        "Year ": "\"1925\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1926,
+        "Annual Carbon Dioxide emissions": 82604880,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 82.6,
+        "Year ": "\"1926\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1927,
+        "Annual Carbon Dioxide emissions": 89482210,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 89.48,
+        "Year ": "\"1927\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1928,
+        "Annual Carbon Dioxide emissions": 92390570,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 92.39,
+        "Year ": "\"1928\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1929,
+        "Annual Carbon Dioxide emissions": 94880340,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 94.88,
+        "Year ": "\"1929\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1930,
+        "Annual Carbon Dioxide emissions": 86165784,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 86.17,
+        "Year ": "\"1930\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1931,
+        "Annual Carbon Dioxide emissions": 77904010,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 77.9,
+        "Year ": "\"1931\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1932,
+        "Annual Carbon Dioxide emissions": 77980500,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 77.98,
+        "Year ": "\"1932\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1933,
+        "Annual Carbon Dioxide emissions": 91342500,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 91.34,
+        "Year ": "\"1933\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1934,
+        "Annual Carbon Dioxide emissions": 101202820,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 101.2,
+        "Year ": "\"1934\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1935,
+        "Annual Carbon Dioxide emissions": 106382490,
+        "CO2 emissions (billions)": 0.11,
+        "C02 emissions (millions)": 106.38,
+        "Year ": "\"1935\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1936,
+        "Annual Carbon Dioxide emissions": 116849070,
+        "CO2 emissions (billions)": 0.12,
+        "C02 emissions (millions)": 116.85,
+        "Year ": "\"1936\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1937,
+        "Annual Carbon Dioxide emissions": 125430960,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 125.43,
+        "Year ": "\"1937\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1938,
+        "Annual Carbon Dioxide emissions": 131735120,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 131.74,
+        "Year ": "\"1938\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1939,
+        "Annual Carbon Dioxide emissions": 127746840,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 127.75,
+        "Year ": "\"1939\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1940,
+        "Annual Carbon Dioxide emissions": 153244270,
+        "CO2 emissions (billions)": 0.15,
+        "C02 emissions (millions)": 153.24,
+        "Year ": "\"1940\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1941,
+        "Annual Carbon Dioxide emissions": 154604580,
+        "CO2 emissions (billions)": 0.15,
+        "C02 emissions (millions)": 154.6,
+        "Year ": "\"1941\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1942,
+        "Annual Carbon Dioxide emissions": 147791840,
+        "CO2 emissions (billions)": 0.15,
+        "C02 emissions (millions)": 147.79,
+        "Year ": "\"1942\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1943,
+        "Annual Carbon Dioxide emissions": 150637470,
+        "CO2 emissions (billions)": 0.15,
+        "C02 emissions (millions)": 150.64,
+        "Year ": "\"1943\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1944,
+        "Annual Carbon Dioxide emissions": 138732700,
+        "CO2 emissions (billions)": 0.14,
+        "C02 emissions (millions)": 138.73,
+        "Year ": "\"1944\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1945,
+        "Annual Carbon Dioxide emissions": 76635160,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 76.64,
+        "Year ": "\"1945\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1946,
+        "Annual Carbon Dioxide emissions": 52706560,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 52.71,
+        "Year ": "\"1946\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1947,
+        "Annual Carbon Dioxide emissions": 70032370,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 70.03,
+        "Year ": "\"1947\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1948,
+        "Annual Carbon Dioxide emissions": 88082370,
+        "CO2 emissions (billions)": 0.09,
+        "C02 emissions (millions)": 88.08,
+        "Year ": "\"1948\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1949,
+        "Annual Carbon Dioxide emissions": 98420104,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 98.42,
+        "Year ": "\"1949\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1950,
+        "Annual Carbon Dioxide emissions": 102540984,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 102.54,
+        "Year ": "\"1950\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1951,
+        "Annual Carbon Dioxide emissions": 123457650,
+        "CO2 emissions (billions)": 0.12,
+        "C02 emissions (millions)": 123.46,
+        "Year ": "\"1951\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1952,
+        "Annual Carbon Dioxide emissions": 130405976,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 130.41,
+        "Year ": "\"1952\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1953,
+        "Annual Carbon Dioxide emissions": 145769800,
+        "CO2 emissions (billions)": 0.15,
+        "C02 emissions (millions)": 145.77,
+        "Year ": "\"1953\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1954,
+        "Annual Carbon Dioxide emissions": 142534100,
+        "CO2 emissions (billions)": 0.14,
+        "C02 emissions (millions)": 142.53,
+        "Year ": "\"1954\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1955,
+        "Annual Carbon Dioxide emissions": 141875000,
+        "CO2 emissions (billions)": 0.14,
+        "C02 emissions (millions)": 141.88,
+        "Year ": "\"1955\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1956,
+        "Annual Carbon Dioxide emissions": 160635760,
+        "CO2 emissions (billions)": 0.16,
+        "C02 emissions (millions)": 160.64,
+        "Year ": "\"1956\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1957,
+        "Annual Carbon Dioxide emissions": 188066740,
+        "CO2 emissions (billions)": 0.19,
+        "C02 emissions (millions)": 188.07,
+        "Year ": "\"1957\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1958,
+        "Annual Carbon Dioxide emissions": 181160880,
+        "CO2 emissions (billions)": 0.18,
+        "C02 emissions (millions)": 181.16,
+        "Year ": "\"1958\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1959,
+        "Annual Carbon Dioxide emissions": 192619980,
+        "CO2 emissions (billions)": 0.19,
+        "C02 emissions (millions)": 192.62,
+        "Year ": "\"1959\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1960,
+        "Annual Carbon Dioxide emissions": 232499630,
+        "CO2 emissions (billions)": 0.23,
+        "C02 emissions (millions)": 232.5,
+        "Year ": "\"1960\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1961,
+        "Annual Carbon Dioxide emissions": 282786880,
+        "CO2 emissions (billions)": 0.28,
+        "C02 emissions (millions)": 282.79,
+        "Year ": "\"1961\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1962,
+        "Annual Carbon Dioxide emissions": 292864450,
+        "CO2 emissions (billions)": 0.29,
+        "C02 emissions (millions)": 292.86,
+        "Year ": "\"1962\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1963,
+        "Annual Carbon Dioxide emissions": 324835460,
+        "CO2 emissions (billions)": 0.32,
+        "C02 emissions (millions)": 324.84,
+        "Year ": "\"1963\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1964,
+        "Annual Carbon Dioxide emissions": 358891070,
+        "CO2 emissions (billions)": 0.36,
+        "C02 emissions (millions)": 358.89,
+        "Year ": "\"1964\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1965,
+        "Annual Carbon Dioxide emissions": 386471200,
+        "CO2 emissions (billions)": 0.39,
+        "C02 emissions (millions)": 386.47,
+        "Year ": "\"1965\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1966,
+        "Annual Carbon Dioxide emissions": 419245120,
+        "CO2 emissions (billions)": 0.42,
+        "C02 emissions (millions)": 419.25,
+        "Year ": "\"1966\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1967,
+        "Annual Carbon Dioxide emissions": 489307420,
+        "CO2 emissions (billions)": 0.49,
+        "C02 emissions (millions)": 489.31,
+        "Year ": "\"1967\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1968,
+        "Annual Carbon Dioxide emissions": 561912500,
+        "CO2 emissions (billions)": 0.56,
+        "C02 emissions (millions)": 561.91,
+        "Year ": "\"1968\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1969,
+        "Annual Carbon Dioxide emissions": 653215400,
+        "CO2 emissions (billions)": 0.65,
+        "C02 emissions (millions)": 653.22,
+        "Year ": "\"1969\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1970,
+        "Annual Carbon Dioxide emissions": 767963140,
+        "CO2 emissions (billions)": 0.77,
+        "C02 emissions (millions)": 767.96,
+        "Year ": "\"1970\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1971,
+        "Annual Carbon Dioxide emissions": 796544260,
+        "CO2 emissions (billions)": 0.8,
+        "C02 emissions (millions)": 796.54,
+        "Year ": "\"1971\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1972,
+        "Annual Carbon Dioxide emissions": 852170240,
+        "CO2 emissions (billions)": 0.85,
+        "C02 emissions (millions)": 852.17,
+        "Year ": "\"1972\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1973,
+        "Annual Carbon Dioxide emissions": 914265200,
+        "CO2 emissions (billions)": 0.91,
+        "C02 emissions (millions)": 914.27,
+        "Year ": "\"1973\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1974,
+        "Annual Carbon Dioxide emissions": 914306240,
+        "CO2 emissions (billions)": 0.91,
+        "C02 emissions (millions)": 914.31,
+        "Year ": "\"1974\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1975,
+        "Annual Carbon Dioxide emissions": 868510700,
+        "CO2 emissions (billions)": 0.87,
+        "C02 emissions (millions)": 868.51,
+        "Year ": "\"1975\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1976,
+        "Annual Carbon Dioxide emissions": 907144500,
+        "CO2 emissions (billions)": 0.91,
+        "C02 emissions (millions)": 907.14,
+        "Year ": "\"1976\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1977,
+        "Annual Carbon Dioxide emissions": 933237700,
+        "CO2 emissions (billions)": 0.93,
+        "C02 emissions (millions)": 933.24,
+        "Year ": "\"1977\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1978,
+        "Annual Carbon Dioxide emissions": 901590100,
+        "CO2 emissions (billions)": 0.9,
+        "C02 emissions (millions)": 901.59,
+        "Year ": "\"1978\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1979,
+        "Annual Carbon Dioxide emissions": 953071360,
+        "CO2 emissions (billions)": 0.95,
+        "C02 emissions (millions)": 953.07,
+        "Year ": "\"1979\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1980,
+        "Annual Carbon Dioxide emissions": 944868600,
+        "CO2 emissions (billions)": 0.94,
+        "C02 emissions (millions)": 944.87,
+        "Year ": "\"1980\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1981,
+        "Annual Carbon Dioxide emissions": 926835500,
+        "CO2 emissions (billions)": 0.93,
+        "C02 emissions (millions)": 926.84,
+        "Year ": "\"1981\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1982,
+        "Annual Carbon Dioxide emissions": 897407740,
+        "CO2 emissions (billions)": 0.9,
+        "C02 emissions (millions)": 897.41,
+        "Year ": "\"1982\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1983,
+        "Annual Carbon Dioxide emissions": 880909440,
+        "CO2 emissions (billions)": 0.88,
+        "C02 emissions (millions)": 880.91,
+        "Year ": "\"1983\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1984,
+        "Annual Carbon Dioxide emissions": 937069900,
+        "CO2 emissions (billions)": 0.94,
+        "C02 emissions (millions)": 937.07,
+        "Year ": "\"1984\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1985,
+        "Annual Carbon Dioxide emissions": 912400830,
+        "CO2 emissions (billions)": 0.91,
+        "C02 emissions (millions)": 912.4,
+        "Year ": "\"1985\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1986,
+        "Annual Carbon Dioxide emissions": 912260000,
+        "CO2 emissions (billions)": 0.91,
+        "C02 emissions (millions)": 912.26,
+        "Year ": "\"1986\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1987,
+        "Annual Carbon Dioxide emissions": 902530300,
+        "CO2 emissions (billions)": 0.9,
+        "C02 emissions (millions)": 902.53,
+        "Year ": "\"1987\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1988,
+        "Annual Carbon Dioxide emissions": 985464300,
+        "CO2 emissions (billions)": 0.99,
+        "C02 emissions (millions)": 985.46,
+        "Year ": "\"1988\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1989,
+        "Annual Carbon Dioxide emissions": 1021681800,
+        "CO2 emissions (billions)": 1.02,
+        "C02 emissions (millions)": 1021.68,
+        "Year ": "\"1989\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1990,
+        "Annual Carbon Dioxide emissions": 1158129400,
+        "CO2 emissions (billions)": 1.16,
+        "C02 emissions (millions)": 1158.13,
+        "Year ": "\"1990\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1991,
+        "Annual Carbon Dioxide emissions": 1169777700,
+        "CO2 emissions (billions)": 1.17,
+        "C02 emissions (millions)": 1169.78,
+        "Year ": "\"1991\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1992,
+        "Annual Carbon Dioxide emissions": 1179504300,
+        "CO2 emissions (billions)": 1.18,
+        "C02 emissions (millions)": 1179.5,
+        "Year ": "\"1992\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1993,
+        "Annual Carbon Dioxide emissions": 1172487300,
+        "CO2 emissions (billions)": 1.17,
+        "C02 emissions (millions)": 1172.49,
+        "Year ": "\"1993\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1994,
+        "Annual Carbon Dioxide emissions": 1227513600,
+        "CO2 emissions (billions)": 1.23,
+        "C02 emissions (millions)": 1227.51,
+        "Year ": "\"1994\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1995,
+        "Annual Carbon Dioxide emissions": 1239909400,
+        "CO2 emissions (billions)": 1.24,
+        "C02 emissions (millions)": 1239.91,
+        "Year ": "\"1995\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1996,
+        "Annual Carbon Dioxide emissions": 1252447000,
+        "CO2 emissions (billions)": 1.25,
+        "C02 emissions (millions)": 1252.45,
+        "Year ": "\"1996\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1997,
+        "Annual Carbon Dioxide emissions": 1245139500,
+        "CO2 emissions (billions)": 1.25,
+        "C02 emissions (millions)": 1245.14,
+        "Year ": "\"1997\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1998,
+        "Annual Carbon Dioxide emissions": 1205249900,
+        "CO2 emissions (billions)": 1.21,
+        "C02 emissions (millions)": 1205.25,
+        "Year ": "\"1998\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 1999,
+        "Annual Carbon Dioxide emissions": 1241835500,
+        "CO2 emissions (billions)": 1.24,
+        "C02 emissions (millions)": 1241.84,
+        "Year ": "\"1999\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2000,
+        "Annual Carbon Dioxide emissions": 1264594600,
+        "CO2 emissions (billions)": 1.26,
+        "C02 emissions (millions)": 1264.59,
+        "Year ": "\"2000\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2001,
+        "Annual Carbon Dioxide emissions": 1249988500,
+        "CO2 emissions (billions)": 1.25,
+        "C02 emissions (millions)": 1249.99,
+        "Year ": "\"2001\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2002,
+        "Annual Carbon Dioxide emissions": 1279362300,
+        "CO2 emissions (billions)": 1.28,
+        "C02 emissions (millions)": 1279.36,
+        "Year ": "\"2002\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2003,
+        "Annual Carbon Dioxide emissions": 1287691900,
+        "CO2 emissions (billions)": 1.29,
+        "C02 emissions (millions)": 1287.69,
+        "Year ": "\"2003\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2004,
+        "Annual Carbon Dioxide emissions": 1283076600,
+        "CO2 emissions (billions)": 1.28,
+        "C02 emissions (millions)": 1283.08,
+        "Year ": "\"2004\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2005,
+        "Annual Carbon Dioxide emissions": 1290599400,
+        "CO2 emissions (billions)": 1.29,
+        "C02 emissions (millions)": 1290.6,
+        "Year ": "\"2005\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2006,
+        "Annual Carbon Dioxide emissions": 1267624000,
+        "CO2 emissions (billions)": 1.27,
+        "C02 emissions (millions)": 1267.62,
+        "Year ": "\"2006\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2007,
+        "Annual Carbon Dioxide emissions": 1303362000,
+        "CO2 emissions (billions)": 1.3,
+        "C02 emissions (millions)": 1303.36,
+        "Year ": "\"2007\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2008,
+        "Annual Carbon Dioxide emissions": 1232480800,
+        "CO2 emissions (billions)": 1.23,
+        "C02 emissions (millions)": 1232.48,
+        "Year ": "\"2008\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2009,
+        "Annual Carbon Dioxide emissions": 1163375100,
+        "CO2 emissions (billions)": 1.16,
+        "C02 emissions (millions)": 1163.38,
+        "Year ": "\"2009\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2010,
+        "Annual Carbon Dioxide emissions": 1215058000,
+        "CO2 emissions (billions)": 1.22,
+        "C02 emissions (millions)": 1215.06,
+        "Year ": "\"2010\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2011,
+        "Annual Carbon Dioxide emissions": 1265034900,
+        "CO2 emissions (billions)": 1.27,
+        "C02 emissions (millions)": 1265.03,
+        "Year ": "\"2011\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2012,
+        "Annual Carbon Dioxide emissions": 1306182500,
+        "CO2 emissions (billions)": 1.31,
+        "C02 emissions (millions)": 1306.18,
+        "Year ": "\"2012\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2013,
+        "Annual Carbon Dioxide emissions": 1315568800,
+        "CO2 emissions (billions)": 1.32,
+        "C02 emissions (millions)": 1315.57,
+        "Year ": "\"2013\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2014,
+        "Annual Carbon Dioxide emissions": 1264413200,
+        "CO2 emissions (billions)": 1.26,
+        "C02 emissions (millions)": 1264.41,
+        "Year ": "\"2014\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2015,
+        "Annual Carbon Dioxide emissions": 1223605100,
+        "CO2 emissions (billions)": 1.22,
+        "C02 emissions (millions)": 1223.61,
+        "Year ": "\"2015\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2016,
+        "Annual Carbon Dioxide emissions": 1203888100,
+        "CO2 emissions (billions)": 1.2,
+        "C02 emissions (millions)": 1203.89,
+        "Year ": "\"2016\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2017,
+        "Annual Carbon Dioxide emissions": 1188359000,
+        "CO2 emissions (billions)": 1.19,
+        "C02 emissions (millions)": 1188.36,
+        "Year ": "\"2017\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2018,
+        "Annual Carbon Dioxide emissions": 1143411800,
+        "CO2 emissions (billions)": 1.14,
+        "C02 emissions (millions)": 1143.41,
+        "Year ": "\"2018\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2019,
+        "Annual Carbon Dioxide emissions": 1106015500,
+        "CO2 emissions (billions)": 1.11,
+        "C02 emissions (millions)": 1106.02,
+        "Year ": "\"2019\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2020,
+        "Annual Carbon Dioxide emissions": 1042224000,
+        "CO2 emissions (billions)": 1.04,
+        "C02 emissions (millions)": 1042.22,
+        "Year ": "\"2020\""
+      },
+      {
+        "Country ": "Japan",
+        "\"Year\"": 2021,
+        "Annual Carbon Dioxide emissions": 1067398460,
+        "CO2 emissions (billions)": 1.07,
+        "C02 emissions (millions)": 1067.4,
+        "Year ": "\"2021\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1905,
+        "Annual Carbon Dioxide emissions": 44296972,
+        "CO2 emissions (billions)": 0.04,
+        "C02 emissions (millions)": 44.3,
+        "Year ": "\"1905\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1906,
+        "Annual Carbon Dioxide emissions": 50525910,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 50.53,
+        "Year ": "\"1906\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1907,
+        "Annual Carbon Dioxide emissions": 56593590,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 56.59,
+        "Year ": "\"1907\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1908,
+        "Annual Carbon Dioxide emissions": 56940764,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 56.94,
+        "Year ": "\"1908\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1909,
+        "Annual Carbon Dioxide emissions": 60107876,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 60.11,
+        "Year ": "\"1909\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1910,
+        "Annual Carbon Dioxide emissions": 58947650,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 58.95,
+        "Year ": "\"1910\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1911,
+        "Annual Carbon Dioxide emissions": 61115796,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 61.12,
+        "Year ": "\"1911\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1912,
+        "Annual Carbon Dioxide emissions": 69230670,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 69.23,
+        "Year ": "\"1912\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1913,
+        "Annual Carbon Dioxide emissions": 75206520,
+        "CO2 emissions (billions)": 0.08,
+        "C02 emissions (millions)": 75.21,
+        "Year ": "\"1913\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1914,
+        "Annual Carbon Dioxide emissions": 67875576,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 67.88,
+        "Year ": "\"1914\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1915,
+        "Annual Carbon Dioxide emissions": 62300664,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 62.3,
+        "Year ": "\"1915\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1916,
+        "Annual Carbon Dioxide emissions": 66401780,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 66.4,
+        "Year ": "\"1916\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1917,
+        "Annual Carbon Dioxide emissions": 61111316,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 61.11,
+        "Year ": "\"1917\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1918,
+        "Annual Carbon Dioxide emissions": 24371508,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 24.37,
+        "Year ": "\"1918\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1919,
+        "Annual Carbon Dioxide emissions": 20816910,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 20.82,
+        "Year ": "\"1919\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1920,
+        "Annual Carbon Dioxide emissions": 18982494,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 18.98,
+        "Year ": "\"1920\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1921,
+        "Annual Carbon Dioxide emissions": 20586208,
+        "CO2 emissions (billions)": 0.02,
+        "C02 emissions (millions)": 20.59,
+        "Year ": "\"1921\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1922,
+        "Annual Carbon Dioxide emissions": 25106170,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 25.11,
+        "Year ": "\"1922\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1923,
+        "Annual Carbon Dioxide emissions": 27733482,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 27.73,
+        "Year ": "\"1923\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1924,
+        "Annual Carbon Dioxide emissions": 33041862,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 33.04,
+        "Year ": "\"1924\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1925,
+        "Annual Carbon Dioxide emissions": 32611816,
+        "CO2 emissions (billions)": 0.03,
+        "C02 emissions (millions)": 32.61,
+        "Year ": "\"1925\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1926,
+        "Annual Carbon Dioxide emissions": 47251292,
+        "CO2 emissions (billions)": 0.05,
+        "C02 emissions (millions)": 47.25,
+        "Year ": "\"1926\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1927,
+        "Annual Carbon Dioxide emissions": 58746064,
+        "CO2 emissions (billions)": 0.06,
+        "C02 emissions (millions)": 58.75,
+        "Year ": "\"1927\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1928,
+        "Annual Carbon Dioxide emissions": 65262276,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 65.26,
+        "Year ": "\"1928\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1929,
+        "Annual Carbon Dioxide emissions": 70282200,
+        "CO2 emissions (billions)": 0.07,
+        "C02 emissions (millions)": 70.28,
+        "Year ": "\"1929\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1930,
+        "Annual Carbon Dioxide emissions": 95543400,
+        "CO2 emissions (billions)": 0.1,
+        "C02 emissions (millions)": 95.54,
+        "Year ": "\"1930\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1931,
+        "Annual Carbon Dioxide emissions": 114782696,
+        "CO2 emissions (billions)": 0.11,
+        "C02 emissions (millions)": 114.78,
+        "Year ": "\"1931\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1932,
+        "Annual Carbon Dioxide emissions": 129326740,
+        "CO2 emissions (billions)": 0.13,
+        "C02 emissions (millions)": 129.33,
+        "Year ": "\"1932\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1933,
+        "Annual Carbon Dioxide emissions": 144535920,
+        "CO2 emissions (billions)": 0.14,
+        "C02 emissions (millions)": 144.54,
+        "Year ": "\"1933\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1934,
+        "Annual Carbon Dioxide emissions": 174833800,
+        "CO2 emissions (billions)": 0.17,
+        "C02 emissions (millions)": 174.83,
+        "Year ": "\"1934\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1935,
+        "Annual Carbon Dioxide emissions": 197901900,
+        "CO2 emissions (billions)": 0.2,
+        "C02 emissions (millions)": 197.9,
+        "Year ": "\"1935\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1936,
+        "Annual Carbon Dioxide emissions": 226932140,
+        "CO2 emissions (billions)": 0.23,
+        "C02 emissions (millions)": 226.93,
+        "Year ": "\"1936\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1937,
+        "Annual Carbon Dioxide emissions": 232047730,
+        "CO2 emissions (billions)": 0.23,
+        "C02 emissions (millions)": 232.05,
+        "Year ": "\"1937\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1938,
+        "Annual Carbon Dioxide emissions": 244915180,
+        "CO2 emissions (billions)": 0.24,
+        "C02 emissions (millions)": 244.92,
+        "Year ": "\"1938\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1939,
+        "Annual Carbon Dioxide emissions": 247918930,
+        "CO2 emissions (billions)": 0.25,
+        "C02 emissions (millions)": 247.92,
+        "Year ": "\"1939\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1940,
+        "Annual Carbon Dioxide emissions": 297221760,
+        "CO2 emissions (billions)": 0.3,
+        "C02 emissions (millions)": 297.22,
+        "Year ": "\"1940\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1941,
+        "Annual Carbon Dioxide emissions": 261117070,
+        "CO2 emissions (billions)": 0.26,
+        "C02 emissions (millions)": 261.12,
+        "Year ": "\"1941\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1942,
+        "Annual Carbon Dioxide emissions": 141957700,
+        "CO2 emissions (billions)": 0.14,
+        "C02 emissions (millions)": 141.96,
+        "Year ": "\"1942\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1943,
+        "Annual Carbon Dioxide emissions": 148155300,
+        "CO2 emissions (billions)": 0.15,
+        "C02 emissions (millions)": 148.16,
+        "Year ": "\"1943\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1944,
+        "Annual Carbon Dioxide emissions": 214852720,
+        "CO2 emissions (billions)": 0.21,
+        "C02 emissions (millions)": 214.85,
+        "Year ": "\"1944\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1945,
+        "Annual Carbon Dioxide emissions": 227464780,
+        "CO2 emissions (billions)": 0.23,
+        "C02 emissions (millions)": 227.46,
+        "Year ": "\"1945\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1946,
+        "Annual Carbon Dioxide emissions": 255629890,
+        "CO2 emissions (billions)": 0.26,
+        "C02 emissions (millions)": 255.63,
+        "Year ": "\"1946\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1947,
+        "Annual Carbon Dioxide emissions": 307819140,
+        "CO2 emissions (billions)": 0.31,
+        "C02 emissions (millions)": 307.82,
+        "Year ": "\"1947\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1948,
+        "Annual Carbon Dioxide emissions": 327549340,
+        "CO2 emissions (billions)": 0.33,
+        "C02 emissions (millions)": 327.55,
+        "Year ": "\"1948\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1949,
+        "Annual Carbon Dioxide emissions": 372340800,
+        "CO2 emissions (billions)": 0.37,
+        "C02 emissions (millions)": 372.34,
+        "Year ": "\"1949\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1950,
+        "Annual Carbon Dioxide emissions": 415034240,
+        "CO2 emissions (billions)": 0.42,
+        "C02 emissions (millions)": 415.03,
+        "Year ": "\"1950\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1951,
+        "Annual Carbon Dioxide emissions": 449803400,
+        "CO2 emissions (billions)": 0.45,
+        "C02 emissions (millions)": 449.8,
+        "Year ": "\"1951\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1952,
+        "Annual Carbon Dioxide emissions": 481669820,
+        "CO2 emissions (billions)": 0.48,
+        "C02 emissions (millions)": 481.67,
+        "Year ": "\"1952\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1953,
+        "Annual Carbon Dioxide emissions": 509579800,
+        "CO2 emissions (billions)": 0.51,
+        "C02 emissions (millions)": 509.58,
+        "Year ": "\"1953\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1954,
+        "Annual Carbon Dioxide emissions": 556538900,
+        "CO2 emissions (billions)": 0.56,
+        "C02 emissions (millions)": 556.54,
+        "Year ": "\"1954\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1955,
+        "Annual Carbon Dioxide emissions": 631060800,
+        "CO2 emissions (billions)": 0.63,
+        "C02 emissions (millions)": 631.06,
+        "Year ": "\"1955\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1956,
+        "Annual Carbon Dioxide emissions": 691897100,
+        "CO2 emissions (billions)": 0.69,
+        "C02 emissions (millions)": 691.9,
+        "Year ": "\"1956\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1957,
+        "Annual Carbon Dioxide emissions": 757151800,
+        "CO2 emissions (billions)": 0.76,
+        "C02 emissions (millions)": 757.15,
+        "Year ": "\"1957\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1958,
+        "Annual Carbon Dioxide emissions": 808172400,
+        "CO2 emissions (billions)": 0.81,
+        "C02 emissions (millions)": 808.17,
+        "Year ": "\"1958\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1959,
+        "Annual Carbon Dioxide emissions": 849684350,
+        "CO2 emissions (billions)": 0.85,
+        "C02 emissions (millions)": 849.68,
+        "Year ": "\"1959\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1960,
+        "Annual Carbon Dioxide emissions": 884644700,
+        "CO2 emissions (billions)": 0.88,
+        "C02 emissions (millions)": 884.64,
+        "Year ": "\"1960\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1961,
+        "Annual Carbon Dioxide emissions": 912314240,
+        "CO2 emissions (billions)": 0.91,
+        "C02 emissions (millions)": 912.31,
+        "Year ": "\"1961\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1962,
+        "Annual Carbon Dioxide emissions": 957527600,
+        "CO2 emissions (billions)": 0.96,
+        "C02 emissions (millions)": 957.53,
+        "Year ": "\"1962\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1963,
+        "Annual Carbon Dioxide emissions": 1026907300,
+        "CO2 emissions (billions)": 1.03,
+        "C02 emissions (millions)": 1026.91,
+        "Year ": "\"1963\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1964,
+        "Annual Carbon Dioxide emissions": 1092142800,
+        "CO2 emissions (billions)": 1.09,
+        "C02 emissions (millions)": 1092.14,
+        "Year ": "\"1964\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1965,
+        "Annual Carbon Dioxide emissions": 1158563800,
+        "CO2 emissions (billions)": 1.16,
+        "C02 emissions (millions)": 1158.56,
+        "Year ": "\"1965\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1966,
+        "Annual Carbon Dioxide emissions": 1223501600,
+        "CO2 emissions (billions)": 1.22,
+        "C02 emissions (millions)": 1223.5,
+        "Year ": "\"1966\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1967,
+        "Annual Carbon Dioxide emissions": 1279355900,
+        "CO2 emissions (billions)": 1.28,
+        "C02 emissions (millions)": 1279.36,
+        "Year ": "\"1967\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1968,
+        "Annual Carbon Dioxide emissions": 1315310000,
+        "CO2 emissions (billions)": 1.32,
+        "C02 emissions (millions)": 1315.31,
+        "Year ": "\"1968\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1969,
+        "Annual Carbon Dioxide emissions": 1369809000,
+        "CO2 emissions (billions)": 1.37,
+        "C02 emissions (millions)": 1369.81,
+        "Year ": "\"1969\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1970,
+        "Annual Carbon Dioxide emissions": 1440678900,
+        "CO2 emissions (billions)": 1.44,
+        "C02 emissions (millions)": 1440.68,
+        "Year ": "\"1970\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1971,
+        "Annual Carbon Dioxide emissions": 1528854800,
+        "CO2 emissions (billions)": 1.53,
+        "C02 emissions (millions)": 1528.85,
+        "Year ": "\"1971\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1972,
+        "Annual Carbon Dioxide emissions": 1608549600,
+        "CO2 emissions (billions)": 1.61,
+        "C02 emissions (millions)": 1608.55,
+        "Year ": "\"1972\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1973,
+        "Annual Carbon Dioxide emissions": 1676483300,
+        "CO2 emissions (billions)": 1.68,
+        "C02 emissions (millions)": 1676.48,
+        "Year ": "\"1973\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1974,
+        "Annual Carbon Dioxide emissions": 1740322700,
+        "CO2 emissions (billions)": 1.74,
+        "C02 emissions (millions)": 1740.32,
+        "Year ": "\"1974\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1975,
+        "Annual Carbon Dioxide emissions": 1829331700,
+        "CO2 emissions (billions)": 1.83,
+        "C02 emissions (millions)": 1829.33,
+        "Year ": "\"1975\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1976,
+        "Annual Carbon Dioxide emissions": 1899786000,
+        "CO2 emissions (billions)": 1.9,
+        "C02 emissions (millions)": 1899.79,
+        "Year ": "\"1976\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1977,
+        "Annual Carbon Dioxide emissions": 1964405000,
+        "CO2 emissions (billions)": 1.96,
+        "C02 emissions (millions)": 1964.41,
+        "Year ": "\"1977\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1978,
+        "Annual Carbon Dioxide emissions": 2031868700,
+        "CO2 emissions (billions)": 2.03,
+        "C02 emissions (millions)": 2031.87,
+        "Year ": "\"1978\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1979,
+        "Annual Carbon Dioxide emissions": 2048720500,
+        "CO2 emissions (billions)": 2.05,
+        "C02 emissions (millions)": 2048.72,
+        "Year ": "\"1979\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1980,
+        "Annual Carbon Dioxide emissions": 2129328900,
+        "CO2 emissions (billions)": 2.13,
+        "C02 emissions (millions)": 2129.33,
+        "Year ": "\"1980\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1981,
+        "Annual Carbon Dioxide emissions": 2088785400,
+        "CO2 emissions (billions)": 2.09,
+        "C02 emissions (millions)": 2088.79,
+        "Year ": "\"1981\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1982,
+        "Annual Carbon Dioxide emissions": 2128165500,
+        "CO2 emissions (billions)": 2.13,
+        "C02 emissions (millions)": 2128.17,
+        "Year ": "\"1982\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1983,
+        "Annual Carbon Dioxide emissions": 2158350800,
+        "CO2 emissions (billions)": 2.16,
+        "C02 emissions (millions)": 2158.35,
+        "Year ": "\"1983\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1984,
+        "Annual Carbon Dioxide emissions": 2177516300,
+        "CO2 emissions (billions)": 2.18,
+        "C02 emissions (millions)": 2177.52,
+        "Year ": "\"1984\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1985,
+        "Annual Carbon Dioxide emissions": 2348382000,
+        "CO2 emissions (billions)": 2.35,
+        "C02 emissions (millions)": 2348.38,
+        "Year ": "\"1985\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1986,
+        "Annual Carbon Dioxide emissions": 2348803300,
+        "CO2 emissions (billions)": 2.35,
+        "C02 emissions (millions)": 2348.8,
+        "Year ": "\"1986\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1987,
+        "Annual Carbon Dioxide emissions": 2357850600,
+        "CO2 emissions (billions)": 2.36,
+        "C02 emissions (millions)": 2357.85,
+        "Year ": "\"1987\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1988,
+        "Annual Carbon Dioxide emissions": 2436908500,
+        "CO2 emissions (billions)": 2.44,
+        "C02 emissions (millions)": 2436.91,
+        "Year ": "\"1988\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1989,
+        "Annual Carbon Dioxide emissions": 2404824800,
+        "CO2 emissions (billions)": 2.4,
+        "C02 emissions (millions)": 2404.82,
+        "Year ": "\"1989\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1990,
+        "Annual Carbon Dioxide emissions": 2534865000,
+        "CO2 emissions (billions)": 2.53,
+        "C02 emissions (millions)": 2534.87,
+        "Year ": "\"1990\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1991,
+        "Annual Carbon Dioxide emissions": 2405532000,
+        "CO2 emissions (billions)": 2.41,
+        "C02 emissions (millions)": 2405.53,
+        "Year ": "\"1991\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1992,
+        "Annual Carbon Dioxide emissions": 1965610200,
+        "CO2 emissions (billions)": 1.97,
+        "C02 emissions (millions)": 1965.61,
+        "Year ": "\"1992\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1993,
+        "Annual Carbon Dioxide emissions": 1865939500,
+        "CO2 emissions (billions)": 1.87,
+        "C02 emissions (millions)": 1865.94,
+        "Year ": "\"1993\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1994,
+        "Annual Carbon Dioxide emissions": 1646941800,
+        "CO2 emissions (billions)": 1.65,
+        "C02 emissions (millions)": 1646.94,
+        "Year ": "\"1994\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1995,
+        "Annual Carbon Dioxide emissions": 1618951200,
+        "CO2 emissions (billions)": 1.62,
+        "C02 emissions (millions)": 1618.95,
+        "Year ": "\"1995\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1996,
+        "Annual Carbon Dioxide emissions": 1586172800,
+        "CO2 emissions (billions)": 1.59,
+        "C02 emissions (millions)": 1586.17,
+        "Year ": "\"1996\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1997,
+        "Annual Carbon Dioxide emissions": 1481618800,
+        "CO2 emissions (billions)": 1.48,
+        "C02 emissions (millions)": 1481.62,
+        "Year ": "\"1997\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1998,
+        "Annual Carbon Dioxide emissions": 1464543000,
+        "CO2 emissions (billions)": 1.46,
+        "C02 emissions (millions)": 1464.54,
+        "Year ": "\"1998\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 1999,
+        "Annual Carbon Dioxide emissions": 1493155100,
+        "CO2 emissions (billions)": 1.49,
+        "C02 emissions (millions)": 1493.16,
+        "Year ": "\"1999\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2000,
+        "Annual Carbon Dioxide emissions": 1478184700,
+        "CO2 emissions (billions)": 1.48,
+        "C02 emissions (millions)": 1478.18,
+        "Year ": "\"2000\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2001,
+        "Annual Carbon Dioxide emissions": 1514713500,
+        "CO2 emissions (billions)": 1.51,
+        "C02 emissions (millions)": 1514.71,
+        "Year ": "\"2001\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2002,
+        "Annual Carbon Dioxide emissions": 1505520100,
+        "CO2 emissions (billions)": 1.51,
+        "C02 emissions (millions)": 1505.52,
+        "Year ": "\"2002\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2003,
+        "Annual Carbon Dioxide emissions": 1535293000,
+        "CO2 emissions (billions)": 1.54,
+        "C02 emissions (millions)": 1535.29,
+        "Year ": "\"2003\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2004,
+        "Annual Carbon Dioxide emissions": 1541753900,
+        "CO2 emissions (billions)": 1.54,
+        "C02 emissions (millions)": 1541.75,
+        "Year ": "\"2004\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2005,
+        "Annual Carbon Dioxide emissions": 1559082800,
+        "CO2 emissions (billions)": 1.56,
+        "C02 emissions (millions)": 1559.08,
+        "Year ": "\"2005\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2006,
+        "Annual Carbon Dioxide emissions": 1618246100,
+        "CO2 emissions (billions)": 1.62,
+        "C02 emissions (millions)": 1618.25,
+        "Year ": "\"2006\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2007,
+        "Annual Carbon Dioxide emissions": 1618586200,
+        "CO2 emissions (billions)": 1.62,
+        "C02 emissions (millions)": 1618.59,
+        "Year ": "\"2007\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2008,
+        "Annual Carbon Dioxide emissions": 1646969000,
+        "CO2 emissions (billions)": 1.65,
+        "C02 emissions (millions)": 1646.97,
+        "Year ": "\"2008\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2009,
+        "Annual Carbon Dioxide emissions": 1539305700,
+        "CO2 emissions (billions)": 1.54,
+        "C02 emissions (millions)": 1539.31,
+        "Year ": "\"2009\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2010,
+        "Annual Carbon Dioxide emissions": 1626187500,
+        "CO2 emissions (billions)": 1.63,
+        "C02 emissions (millions)": 1626.19,
+        "Year ": "\"2010\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2011,
+        "Annual Carbon Dioxide emissions": 1679278500,
+        "CO2 emissions (billions)": 1.68,
+        "C02 emissions (millions)": 1679.28,
+        "Year ": "\"2011\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2012,
+        "Annual Carbon Dioxide emissions": 1694576400,
+        "CO2 emissions (billions)": 1.69,
+        "C02 emissions (millions)": 1694.58,
+        "Year ": "\"2012\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2013,
+        "Annual Carbon Dioxide emissions": 1632716400,
+        "CO2 emissions (billions)": 1.63,
+        "C02 emissions (millions)": 1632.72,
+        "Year ": "\"2013\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2014,
+        "Annual Carbon Dioxide emissions": 1631662200,
+        "CO2 emissions (billions)": 1.63,
+        "C02 emissions (millions)": 1631.66,
+        "Year ": "\"2014\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2015,
+        "Annual Carbon Dioxide emissions": 1629713200,
+        "CO2 emissions (billions)": 1.63,
+        "C02 emissions (millions)": 1629.71,
+        "Year ": "\"2015\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2016,
+        "Annual Carbon Dioxide emissions": 1624756400,
+        "CO2 emissions (billions)": 1.62,
+        "C02 emissions (millions)": 1624.76,
+        "Year ": "\"2016\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2017,
+        "Annual Carbon Dioxide emissions": 1654154100,
+        "CO2 emissions (billions)": 1.65,
+        "C02 emissions (millions)": 1654.15,
+        "Year ": "\"2017\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2018,
+        "Annual Carbon Dioxide emissions": 1700452900,
+        "CO2 emissions (billions)": 1.7,
+        "C02 emissions (millions)": 1700.45,
+        "Year ": "\"2018\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2019,
+        "Annual Carbon Dioxide emissions": 1692363400,
+        "CO2 emissions (billions)": 1.69,
+        "C02 emissions (millions)": 1692.36,
+        "Year ": "\"2019\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2020,
+        "Annual Carbon Dioxide emissions": 1624221400,
+        "CO2 emissions (billions)": 1.62,
+        "C02 emissions (millions)": 1624.22,
+        "Year ": "\"2020\""
+      },
+      {
+        "Country ": "Russia",
+        "\"Year\"": 2021,
+        "Annual Carbon Dioxide emissions": 1755547400,
+        "CO2 emissions (billions)": 1.76,
+        "C02 emissions (millions)": 1755.55,
+        "Year ": "\"2021\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1905,
+        "Annual Carbon Dioxide emissions": 986482400,
+        "CO2 emissions (billions)": 0.99,
+        "C02 emissions (millions)": 986.48,
+        "Year ": "\"1905\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1906,
+        "Annual Carbon Dioxide emissions": 1035471170,
+        "CO2 emissions (billions)": 1.04,
+        "C02 emissions (millions)": 1035.47,
+        "Year ": "\"1906\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1907,
+        "Annual Carbon Dioxide emissions": 1203861500,
+        "CO2 emissions (billions)": 1.2,
+        "C02 emissions (millions)": 1203.86,
+        "Year ": "\"1907\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1908,
+        "Annual Carbon Dioxide emissions": 1052812860,
+        "CO2 emissions (billions)": 1.05,
+        "C02 emissions (millions)": 1052.81,
+        "Year ": "\"1908\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1909,
+        "Annual Carbon Dioxide emissions": 1165706200,
+        "CO2 emissions (billions)": 1.17,
+        "C02 emissions (millions)": 1165.71,
+        "Year ": "\"1909\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1910,
+        "Annual Carbon Dioxide emissions": 1271582100,
+        "CO2 emissions (billions)": 1.27,
+        "C02 emissions (millions)": 1271.58,
+        "Year ": "\"1910\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1911,
+        "Annual Carbon Dioxide emissions": 1258666600,
+        "CO2 emissions (billions)": 1.26,
+        "C02 emissions (millions)": 1258.67,
+        "Year ": "\"1911\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1912,
+        "Annual Carbon Dioxide emissions": 1343565600,
+        "CO2 emissions (billions)": 1.34,
+        "C02 emissions (millions)": 1343.57,
+        "Year ": "\"1912\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1913,
+        "Annual Carbon Dioxide emissions": 1442542100,
+        "CO2 emissions (billions)": 1.44,
+        "C02 emissions (millions)": 1442.54,
+        "Year ": "\"1913\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1914,
+        "Annual Carbon Dioxide emissions": 1317980300,
+        "CO2 emissions (billions)": 1.32,
+        "C02 emissions (millions)": 1317.98,
+        "Year ": "\"1914\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1915,
+        "Annual Carbon Dioxide emissions": 1367697000,
+        "CO2 emissions (billions)": 1.37,
+        "C02 emissions (millions)": 1367.7,
+        "Year ": "\"1915\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1916,
+        "Annual Carbon Dioxide emissions": 1518980700,
+        "CO2 emissions (billions)": 1.52,
+        "C02 emissions (millions)": 1518.98,
+        "Year ": "\"1916\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1917,
+        "Annual Carbon Dioxide emissions": 1670970600,
+        "CO2 emissions (billions)": 1.67,
+        "C02 emissions (millions)": 1670.97,
+        "Year ": "\"1917\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1918,
+        "Annual Carbon Dioxide emissions": 1747718100,
+        "CO2 emissions (billions)": 1.75,
+        "C02 emissions (millions)": 1747.72,
+        "Year ": "\"1918\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1919,
+        "Annual Carbon Dioxide emissions": 1479158800,
+        "CO2 emissions (billions)": 1.48,
+        "C02 emissions (millions)": 1479.16,
+        "Year ": "\"1919\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1920,
+        "Annual Carbon Dioxide emissions": 1738245800,
+        "CO2 emissions (billions)": 1.74,
+        "C02 emissions (millions)": 1738.25,
+        "Year ": "\"1920\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1921,
+        "Annual Carbon Dioxide emissions": 1423668600,
+        "CO2 emissions (billions)": 1.42,
+        "C02 emissions (millions)": 1423.67,
+        "Year ": "\"1921\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1922,
+        "Annual Carbon Dioxide emissions": 1435758300,
+        "CO2 emissions (billions)": 1.44,
+        "C02 emissions (millions)": 1435.76,
+        "Year ": "\"1922\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1923,
+        "Annual Carbon Dioxide emissions": 1896735900,
+        "CO2 emissions (billions)": 1.9,
+        "C02 emissions (millions)": 1896.74,
+        "Year ": "\"1923\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1924,
+        "Annual Carbon Dioxide emissions": 1698320300,
+        "CO2 emissions (billions)": 1.7,
+        "C02 emissions (millions)": 1698.32,
+        "Year ": "\"1924\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1925,
+        "Annual Carbon Dioxide emissions": 1758185500,
+        "CO2 emissions (billions)": 1.76,
+        "C02 emissions (millions)": 1758.19,
+        "Year ": "\"1925\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1926,
+        "Annual Carbon Dioxide emissions": 1906048500,
+        "CO2 emissions (billions)": 1.91,
+        "C02 emissions (millions)": 1906.05,
+        "Year ": "\"1926\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1927,
+        "Annual Carbon Dioxide emissions": 1862839200,
+        "CO2 emissions (billions)": 1.86,
+        "C02 emissions (millions)": 1862.84,
+        "Year ": "\"1927\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1928,
+        "Annual Carbon Dioxide emissions": 1830965000,
+        "CO2 emissions (billions)": 1.83,
+        "C02 emissions (millions)": 1830.97,
+        "Year ": "\"1928\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1929,
+        "Annual Carbon Dioxide emissions": 1963506200,
+        "CO2 emissions (billions)": 1.96,
+        "C02 emissions (millions)": 1963.51,
+        "Year ": "\"1929\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1930,
+        "Annual Carbon Dioxide emissions": 1744916200,
+        "CO2 emissions (billions)": 1.74,
+        "C02 emissions (millions)": 1744.92,
+        "Year ": "\"1930\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1931,
+        "Annual Carbon Dioxide emissions": 1484959100,
+        "CO2 emissions (billions)": 1.48,
+        "C02 emissions (millions)": 1484.96,
+        "Year ": "\"1931\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1932,
+        "Annual Carbon Dioxide emissions": 1257814100,
+        "CO2 emissions (billions)": 1.26,
+        "C02 emissions (millions)": 1257.81,
+        "Year ": "\"1932\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1933,
+        "Annual Carbon Dioxide emissions": 1348876800,
+        "CO2 emissions (billions)": 1.35,
+        "C02 emissions (millions)": 1348.88,
+        "Year ": "\"1933\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1934,
+        "Annual Carbon Dioxide emissions": 1436238600,
+        "CO2 emissions (billions)": 1.44,
+        "C02 emissions (millions)": 1436.24,
+        "Year ": "\"1934\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1935,
+        "Annual Carbon Dioxide emissions": 1492320900,
+        "CO2 emissions (billions)": 1.49,
+        "C02 emissions (millions)": 1492.32,
+        "Year ": "\"1935\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1936,
+        "Annual Carbon Dioxide emissions": 1713411700,
+        "CO2 emissions (billions)": 1.71,
+        "C02 emissions (millions)": 1713.41,
+        "Year ": "\"1936\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1937,
+        "Annual Carbon Dioxide emissions": 1792609900,
+        "CO2 emissions (billions)": 1.79,
+        "C02 emissions (millions)": 1792.61,
+        "Year ": "\"1937\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1938,
+        "Annual Carbon Dioxide emissions": 1515749900,
+        "CO2 emissions (billions)": 1.52,
+        "C02 emissions (millions)": 1515.75,
+        "Year ": "\"1938\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1939,
+        "Annual Carbon Dioxide emissions": 1670920400,
+        "CO2 emissions (billions)": 1.67,
+        "C02 emissions (millions)": 1670.92,
+        "Year ": "\"1939\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1940,
+        "Annual Carbon Dioxide emissions": 1874985100,
+        "CO2 emissions (billions)": 1.87,
+        "C02 emissions (millions)": 1874.99,
+        "Year ": "\"1940\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1941,
+        "Annual Carbon Dioxide emissions": 2043585000,
+        "CO2 emissions (billions)": 2.04,
+        "C02 emissions (millions)": 2043.59,
+        "Year ": "\"1941\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1942,
+        "Annual Carbon Dioxide emissions": 2198264800,
+        "CO2 emissions (billions)": 2.2,
+        "C02 emissions (millions)": 2198.26,
+        "Year ": "\"1942\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1943,
+        "Annual Carbon Dioxide emissions": 2272059100,
+        "CO2 emissions (billions)": 2.27,
+        "C02 emissions (millions)": 2272.06,
+        "Year ": "\"1943\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1944,
+        "Annual Carbon Dioxide emissions": 2444903700,
+        "CO2 emissions (billions)": 2.44,
+        "C02 emissions (millions)": 2444.9,
+        "Year ": "\"1944\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1945,
+        "Annual Carbon Dioxide emissions": 2359551500,
+        "CO2 emissions (billions)": 2.36,
+        "C02 emissions (millions)": 2359.55,
+        "Year ": "\"1945\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1946,
+        "Annual Carbon Dioxide emissions": 2257493800,
+        "CO2 emissions (billions)": 2.26,
+        "C02 emissions (millions)": 2257.49,
+        "Year ": "\"1946\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1947,
+        "Annual Carbon Dioxide emissions": 2485854500,
+        "CO2 emissions (billions)": 2.49,
+        "C02 emissions (millions)": 2485.85,
+        "Year ": "\"1947\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1948,
+        "Annual Carbon Dioxide emissions": 2582558700,
+        "CO2 emissions (billions)": 2.58,
+        "C02 emissions (millions)": 2582.56,
+        "Year ": "\"1948\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1949,
+        "Annual Carbon Dioxide emissions": 2164862200,
+        "CO2 emissions (billions)": 2.16,
+        "C02 emissions (millions)": 2164.86,
+        "Year ": "\"1949\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1950,
+        "Annual Carbon Dioxide emissions": 2541485300,
+        "CO2 emissions (billions)": 2.54,
+        "C02 emissions (millions)": 2541.49,
+        "Year ": "\"1950\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1951,
+        "Annual Carbon Dioxide emissions": 2618711600,
+        "CO2 emissions (billions)": 2.62,
+        "C02 emissions (millions)": 2618.71,
+        "Year ": "\"1951\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1952,
+        "Annual Carbon Dioxide emissions": 2551219500,
+        "CO2 emissions (billions)": 2.55,
+        "C02 emissions (millions)": 2551.22,
+        "Year ": "\"1952\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1953,
+        "Annual Carbon Dioxide emissions": 2612971300,
+        "CO2 emissions (billions)": 2.61,
+        "C02 emissions (millions)": 2612.97,
+        "Year ": "\"1953\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1954,
+        "Annual Carbon Dioxide emissions": 2489462300,
+        "CO2 emissions (billions)": 2.49,
+        "C02 emissions (millions)": 2489.46,
+        "Year ": "\"1954\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1955,
+        "Annual Carbon Dioxide emissions": 2728512000,
+        "CO2 emissions (billions)": 2.73,
+        "C02 emissions (millions)": 2728.51,
+        "Year ": "\"1955\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1956,
+        "Annual Carbon Dioxide emissions": 2859995000,
+        "CO2 emissions (billions)": 2.86,
+        "C02 emissions (millions)": 2860,
+        "Year ": "\"1956\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1957,
+        "Annual Carbon Dioxide emissions": 2835772200,
+        "CO2 emissions (billions)": 2.84,
+        "C02 emissions (millions)": 2835.77,
+        "Year ": "\"1957\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1958,
+        "Annual Carbon Dioxide emissions": 2747107600,
+        "CO2 emissions (billions)": 2.75,
+        "C02 emissions (millions)": 2747.11,
+        "Year ": "\"1958\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1959,
+        "Annual Carbon Dioxide emissions": 2831923200,
+        "CO2 emissions (billions)": 2.83,
+        "C02 emissions (millions)": 2831.92,
+        "Year ": "\"1959\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1960,
+        "Annual Carbon Dioxide emissions": 2897315000,
+        "CO2 emissions (billions)": 2.9,
+        "C02 emissions (millions)": 2897.32,
+        "Year ": "\"1960\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1961,
+        "Annual Carbon Dioxide emissions": 2886872800,
+        "CO2 emissions (billions)": 2.89,
+        "C02 emissions (millions)": 2886.87,
+        "Year ": "\"1961\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1962,
+        "Annual Carbon Dioxide emissions": 2993902000,
+        "CO2 emissions (billions)": 2.99,
+        "C02 emissions (millions)": 2993.9,
+        "Year ": "\"1962\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1963,
+        "Annual Carbon Dioxide emissions": 3126487600,
+        "CO2 emissions (billions)": 3.13,
+        "C02 emissions (millions)": 3126.49,
+        "Year ": "\"1963\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1964,
+        "Annual Carbon Dioxide emissions": 3264313600,
+        "CO2 emissions (billions)": 3.26,
+        "C02 emissions (millions)": 3264.31,
+        "Year ": "\"1964\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1965,
+        "Annual Carbon Dioxide emissions": 3399547000,
+        "CO2 emissions (billions)": 3.4,
+        "C02 emissions (millions)": 3399.55,
+        "Year ": "\"1965\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1966,
+        "Annual Carbon Dioxide emissions": 3571421400,
+        "CO2 emissions (billions)": 3.57,
+        "C02 emissions (millions)": 3571.42,
+        "Year ": "\"1966\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1967,
+        "Annual Carbon Dioxide emissions": 3705461000,
+        "CO2 emissions (billions)": 3.71,
+        "C02 emissions (millions)": 3705.46,
+        "Year ": "\"1967\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1968,
+        "Annual Carbon Dioxide emissions": 3840919600,
+        "CO2 emissions (billions)": 3.84,
+        "C02 emissions (millions)": 3840.92,
+        "Year ": "\"1968\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1969,
+        "Annual Carbon Dioxide emissions": 4035145200,
+        "CO2 emissions (billions)": 4.04,
+        "C02 emissions (millions)": 4035.15,
+        "Year ": "\"1969\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1970,
+        "Annual Carbon Dioxide emissions": 4339686000,
+        "CO2 emissions (billions)": 4.34,
+        "C02 emissions (millions)": 4339.69,
+        "Year ": "\"1970\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1971,
+        "Annual Carbon Dioxide emissions": 4365465000,
+        "CO2 emissions (billions)": 4.37,
+        "C02 emissions (millions)": 4365.47,
+        "Year ": "\"1971\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1972,
+        "Annual Carbon Dioxide emissions": 4573015000,
+        "CO2 emissions (billions)": 4.57,
+        "C02 emissions (millions)": 4573.02,
+        "Year ": "\"1972\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1973,
+        "Annual Carbon Dioxide emissions": 4785048600,
+        "CO2 emissions (billions)": 4.79,
+        "C02 emissions (millions)": 4785.05,
+        "Year ": "\"1973\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1974,
+        "Annual Carbon Dioxide emissions": 4621046000,
+        "CO2 emissions (billions)": 4.62,
+        "C02 emissions (millions)": 4621.05,
+        "Year ": "\"1974\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1975,
+        "Annual Carbon Dioxide emissions": 4478226000,
+        "CO2 emissions (billions)": 4.48,
+        "C02 emissions (millions)": 4478.23,
+        "Year ": "\"1975\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1976,
+        "Annual Carbon Dioxide emissions": 4747762000,
+        "CO2 emissions (billions)": 4.75,
+        "C02 emissions (millions)": 4747.76,
+        "Year ": "\"1976\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1977,
+        "Annual Carbon Dioxide emissions": 4889607000,
+        "CO2 emissions (billions)": 4.89,
+        "C02 emissions (millions)": 4889.61,
+        "Year ": "\"1977\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1978,
+        "Annual Carbon Dioxide emissions": 4941361700,
+        "CO2 emissions (billions)": 4.94,
+        "C02 emissions (millions)": 4941.36,
+        "Year ": "\"1978\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1979,
+        "Annual Carbon Dioxide emissions": 5008578600,
+        "CO2 emissions (billions)": 5.01,
+        "C02 emissions (millions)": 5008.58,
+        "Year ": "\"1979\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1980,
+        "Annual Carbon Dioxide emissions": 4808520700,
+        "CO2 emissions (billions)": 4.81,
+        "C02 emissions (millions)": 4808.52,
+        "Year ": "\"1980\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1981,
+        "Annual Carbon Dioxide emissions": 4686369300,
+        "CO2 emissions (billions)": 4.69,
+        "C02 emissions (millions)": 4686.37,
+        "Year ": "\"1981\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1982,
+        "Annual Carbon Dioxide emissions": 4447256000,
+        "CO2 emissions (billions)": 4.45,
+        "C02 emissions (millions)": 4447.26,
+        "Year ": "\"1982\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1983,
+        "Annual Carbon Dioxide emissions": 4429374000,
+        "CO2 emissions (billions)": 4.43,
+        "C02 emissions (millions)": 4429.37,
+        "Year ": "\"1983\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1984,
+        "Annual Carbon Dioxide emissions": 4662141400,
+        "CO2 emissions (billions)": 4.66,
+        "C02 emissions (millions)": 4662.14,
+        "Year ": "\"1984\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1985,
+        "Annual Carbon Dioxide emissions": 4652580000,
+        "CO2 emissions (billions)": 4.65,
+        "C02 emissions (millions)": 4652.58,
+        "Year ": "\"1985\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1986,
+        "Annual Carbon Dioxide emissions": 4663369700,
+        "CO2 emissions (billions)": 4.66,
+        "C02 emissions (millions)": 4663.37,
+        "Year ": "\"1986\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1987,
+        "Annual Carbon Dioxide emissions": 4825650700,
+        "CO2 emissions (billions)": 4.83,
+        "C02 emissions (millions)": 4825.65,
+        "Year ": "\"1987\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1988,
+        "Annual Carbon Dioxide emissions": 5050475500,
+        "CO2 emissions (billions)": 5.05,
+        "C02 emissions (millions)": 5050.48,
+        "Year ": "\"1988\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1989,
+        "Annual Carbon Dioxide emissions": 5132134400,
+        "CO2 emissions (billions)": 5.13,
+        "C02 emissions (millions)": 5132.13,
+        "Year ": "\"1989\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1990,
+        "Annual Carbon Dioxide emissions": 5122496000,
+        "CO2 emissions (billions)": 5.12,
+        "C02 emissions (millions)": 5122.5,
+        "Year ": "\"1990\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1991,
+        "Annual Carbon Dioxide emissions": 5064987000,
+        "CO2 emissions (billions)": 5.06,
+        "C02 emissions (millions)": 5064.99,
+        "Year ": "\"1991\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1992,
+        "Annual Carbon Dioxide emissions": 5175220000,
+        "CO2 emissions (billions)": 5.18,
+        "C02 emissions (millions)": 5175.22,
+        "Year ": "\"1992\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1993,
+        "Annual Carbon Dioxide emissions": 5274363000,
+        "CO2 emissions (billions)": 5.27,
+        "C02 emissions (millions)": 5274.36,
+        "Year ": "\"1993\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1994,
+        "Annual Carbon Dioxide emissions": 5365579000,
+        "CO2 emissions (billions)": 5.37,
+        "C02 emissions (millions)": 5365.58,
+        "Year ": "\"1994\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1995,
+        "Annual Carbon Dioxide emissions": 5427798500,
+        "CO2 emissions (billions)": 5.43,
+        "C02 emissions (millions)": 5427.8,
+        "Year ": "\"1995\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1996,
+        "Annual Carbon Dioxide emissions": 5616430600,
+        "CO2 emissions (billions)": 5.62,
+        "C02 emissions (millions)": 5616.43,
+        "Year ": "\"1996\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1997,
+        "Annual Carbon Dioxide emissions": 5691864600,
+        "CO2 emissions (billions)": 5.69,
+        "C02 emissions (millions)": 5691.86,
+        "Year ": "\"1997\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1998,
+        "Annual Carbon Dioxide emissions": 5737129500,
+        "CO2 emissions (billions)": 5.74,
+        "C02 emissions (millions)": 5737.13,
+        "Year ": "\"1998\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 1999,
+        "Annual Carbon Dioxide emissions": 5810331600,
+        "CO2 emissions (billions)": 5.81,
+        "C02 emissions (millions)": 5810.33,
+        "Year ": "\"1999\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2000,
+        "Annual Carbon Dioxide emissions": 6016350700,
+        "CO2 emissions (billions)": 6.02,
+        "C02 emissions (millions)": 6016.35,
+        "Year ": "\"2000\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2001,
+        "Annual Carbon Dioxide emissions": 5911988000,
+        "CO2 emissions (billions)": 5.91,
+        "C02 emissions (millions)": 5911.99,
+        "Year ": "\"2001\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2002,
+        "Annual Carbon Dioxide emissions": 5952699000,
+        "CO2 emissions (billions)": 5.95,
+        "C02 emissions (millions)": 5952.7,
+        "Year ": "\"2002\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2003,
+        "Annual Carbon Dioxide emissions": 6015804400,
+        "CO2 emissions (billions)": 6.02,
+        "C02 emissions (millions)": 6015.8,
+        "Year ": "\"2003\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2004,
+        "Annual Carbon Dioxide emissions": 6117963000,
+        "CO2 emissions (billions)": 6.12,
+        "C02 emissions (millions)": 6117.96,
+        "Year ": "\"2004\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2005,
+        "Annual Carbon Dioxide emissions": 6137603600,
+        "CO2 emissions (billions)": 6.14,
+        "C02 emissions (millions)": 6137.6,
+        "Year ": "\"2005\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2006,
+        "Annual Carbon Dioxide emissions": 6057163300,
+        "CO2 emissions (billions)": 6.06,
+        "C02 emissions (millions)": 6057.16,
+        "Year ": "\"2006\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2007,
+        "Annual Carbon Dioxide emissions": 6135287300,
+        "CO2 emissions (billions)": 6.14,
+        "C02 emissions (millions)": 6135.29,
+        "Year ": "\"2007\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2008,
+        "Annual Carbon Dioxide emissions": 5918868500,
+        "CO2 emissions (billions)": 5.92,
+        "C02 emissions (millions)": 5918.87,
+        "Year ": "\"2008\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2009,
+        "Annual Carbon Dioxide emissions": 5482978000,
+        "CO2 emissions (billions)": 5.48,
+        "C02 emissions (millions)": 5482.98,
+        "Year ": "\"2009\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2010,
+        "Annual Carbon Dioxide emissions": 5681392000,
+        "CO2 emissions (billions)": 5.68,
+        "C02 emissions (millions)": 5681.39,
+        "Year ": "\"2010\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2011,
+        "Annual Carbon Dioxide emissions": 5546629000,
+        "CO2 emissions (billions)": 5.55,
+        "C02 emissions (millions)": 5546.63,
+        "Year ": "\"2011\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2012,
+        "Annual Carbon Dioxide emissions": 5345454000,
+        "CO2 emissions (billions)": 5.35,
+        "C02 emissions (millions)": 5345.45,
+        "Year ": "\"2012\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2013,
+        "Annual Carbon Dioxide emissions": 5480926000,
+        "CO2 emissions (billions)": 5.48,
+        "C02 emissions (millions)": 5480.93,
+        "Year ": "\"2013\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2014,
+        "Annual Carbon Dioxide emissions": 5528871000,
+        "CO2 emissions (billions)": 5.53,
+        "C02 emissions (millions)": 5528.87,
+        "Year ": "\"2014\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2015,
+        "Annual Carbon Dioxide emissions": 5376578000,
+        "CO2 emissions (billions)": 5.38,
+        "C02 emissions (millions)": 5376.58,
+        "Year ": "\"2015\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2016,
+        "Annual Carbon Dioxide emissions": 5251757600,
+        "CO2 emissions (billions)": 5.25,
+        "C02 emissions (millions)": 5251.76,
+        "Year ": "\"2016\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2017,
+        "Annual Carbon Dioxide emissions": 5210957300,
+        "CO2 emissions (billions)": 5.21,
+        "C02 emissions (millions)": 5210.96,
+        "Year ": "\"2017\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2018,
+        "Annual Carbon Dioxide emissions": 5376657400,
+        "CO2 emissions (billions)": 5.38,
+        "C02 emissions (millions)": 5376.66,
+        "Year ": "\"2018\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2019,
+        "Annual Carbon Dioxide emissions": 5259144000,
+        "CO2 emissions (billions)": 5.26,
+        "C02 emissions (millions)": 5259.14,
+        "Year ": "\"2019\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2020,
+        "Annual Carbon Dioxide emissions": 4715691000,
+        "CO2 emissions (billions)": 4.72,
+        "C02 emissions (millions)": 4715.69,
+        "Year ": "\"2020\""
+      },
+      {
+        "Country ": "United States",
+        "\"Year\"": 2021,
+        "Annual Carbon Dioxide emissions": 5007336000,
+        "CO2 emissions (billions)": 5.01,
+        "C02 emissions (millions)": 5007.34,
+        "Year ": "\"2021\""
+      }
+    ]
+  },
+  "height": 290,
+  "width": 400,
+  "mark": {"type": "bar", "point": false},
+  "encoding": {
+    "x": {"field": "Year ", "type": "temporal", "axis": {"title": null}},
+    "y": {
+      "field": "CO2 emissions (billions)",
+      "type": "quantitative",
+      "axis": {"title": "CO2 emissions (billion tonnes)"}
+    },
+    "color": {"field": "Country ", "type": "nominal"}
+  },
+  "config": {}
+}

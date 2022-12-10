@@ -47,7 +47,7 @@
             <div class="card">
                 <div class="category" style="color: green;">
                 <span>
-                    <span style="color: blue;" class="tag">Week 1 - Embedding Graohs</span>
+                    <span style="color: blue;" class="tag">Week 1 - Embedding Graphs</span>
                 </span>
             </div> 
             <div class="chart" id="Chart4"></div>
@@ -74,6 +74,26 @@
             <p>This chart shows IMF lending as a percentage of global GDP. It shows that the riskiest year was 1984 as compared to other years, lending as a % of global GDP was highest in this year (0.31%)</p>
             </div>
 
+            <div class="card3">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Week 3 - Inline data objects</span>
+                </span>
+            </div>
+            <div class="chart7" id="Chart7"></div>
+            <p>This bar chart shows the sum of annual carbon emissions from 1905-2021 for the top 5 countries that have the highest annual CO2 emissions (in billion tonnes). The data source is defined inline in the Vega-lite specification.</p>
+            </div>
+
+            <div class="card3">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Week 3 - Visual Encodings</span>
+                </span>
+            </div>
+            <div class="chart7" id="Chart8"></div>
+            <p>This is the same data presented as a line chart instead of a bar chart. I chose this second visual encoding because it's easier to visualise the individual countries' CO2 emission change over the period and therefore easier to compare with one another. </p>
+            </div>
+
             
             
             
@@ -98,12 +118,16 @@
     var myChart4 = "chart4_sizeofUKeconomy.json";
     var myChart5 = "ft_chartnew.json";
     var myChart6 = "ftchart_fixed3.json";
+    var myChart7 = "week3/week3_chart1_fixed.json";
+    var myChart8 = "week3/week3_chart2.json";
 
     // Embed charts:
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
 </script>
 
 <footer>
