@@ -9,8 +9,8 @@
     "description4": "The filtered value determines the domain of the y axis",
 
     "title": {
-    "text": "The size of the UK economy - interactive",
-    "subtitle": "Nominal GDP, quarterly. Source: ONS (YBHA)",
+    "text": "UK GDP (1955-2021)",
+    "subtitle": "Quarterly, nominal GDP (£m). Source: ONS (YBHA)",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
