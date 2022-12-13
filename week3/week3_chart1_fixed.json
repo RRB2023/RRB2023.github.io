@@ -3,9 +3,10 @@
   "description": "A simple bar chart with embedded data.",
   "title": {
     "text": "Annual CO2 emissions (1905-2021)",
-    "subtitle": "CO2 emissions from fossil fuels and industry. Source: Our World in Data based on the Global Carbon Project (2022)",
+    "anchor": "start",
+    "subtitle": "from fossil fuels and industry. Source: Our World in Data based on the Global Carbon Project (2022)",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 11
+    "subtitleFontSize": 7
   },
   "data": {
     "values": [
@@ -4691,8 +4692,8 @@
       }
     ]
   },
-  "height": 290,
-  "width": 400,
+  "height": 350,
+  "width": 250,
   "mark": {"type": "bar", "point": false},
   "encoding": {
     "x": {"field": "Year ", "type": "temporal", "axis": {"title": null}},
