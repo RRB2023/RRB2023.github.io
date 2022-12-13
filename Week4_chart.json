@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Number of people at risk from rising sea levels",
+    "anchor": "start",
+    "subtitle": "From the top five countries at the most risk of being submerged by 2100. Source: Envirotech online ",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 8
+  },
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/week4_portfolio_first.csv"
+  },
+  "mark": "bar",
+  "height": 350,
+  "width": 350,
+  "encoding": {
+    "x": {
+      "field": "Country",
+      "type": "nominal",
+      "axis": {"labelAngle": 0, "title": null}
+    },
+    "y": {"field": "Persons at risk (millions)", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal", "legend": null}
+  },
+  "config": {}
+}
