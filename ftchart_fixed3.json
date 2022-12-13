@@ -4,15 +4,15 @@
     "text": "Total IMF credit outstanding: 1984-2021 ",
     "subtitle": "Lending to all IMF members as a % of global GDP, (current US$). Sources: IMF and World Bank",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 11,
+    "subtitleFontSize": 9,
     "anchor": "start",
     "color": "black"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/IMFcreditoutstandingdataclean_GDP.csv"
   },
-  "height": 300,
-  "width": 440,
+  "height": 360,
+  "width": 350,
   "mark": {"type": "bar", "color": "#21a3b9"},
   "encoding": {
     "x": {
