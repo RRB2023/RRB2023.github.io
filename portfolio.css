@@ -1,16 +1,11 @@
-/* Richard Davies, Data Science for Economists */
-
-/* This is my second CSS file */
-
 *{
     box-sizing: border-box;
 }
 
-/* Import a font */
+/* Import a font and CSS for the background */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
-/* Set the background color for my page: */
 body, html{
     height: 100%;
  
@@ -28,7 +23,7 @@ body, html{
 }
 
 
-/* Choose the appearance of the tags, h1, h3 and p: */
+/* Choose the appearance of the tags, h1, h2 and p: */
 
 h1, h2{
     color: white;
@@ -36,80 +31,17 @@ h1, h2{
     text-align: center;
 }
 
+/* This is for the writing in the boxes under the graphs*/
 p{
     display: flex;
     align-items: center;
     margin: 0;
-    color:rgb(0, 0, 0);
+    color:black;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-    
 
-
-
-/* Set the apperance of the class, chart */
-.chart{
-    margin: 0px;
-    padding: 0px;
-    padding-top: 3px;
-    height: 360px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width:330px;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: green;
-    
-}
-
-.chart5{
-    margin: 0px;
-    padding: 0px;
-    padding-top: 3px;
-    height: 370px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 345px;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: green;
-}
-
-.chart6{
-    margin: 0px;
-    padding: 0px;
-    padding-top: 3px;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 500px;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: green;
-}
-
-.chart7{
-    margin: 0px;
-    padding: 0px;
-    padding-top: 3px;
-    height: 400px;
-    width: 600px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: green;
-}
-
+/*I still don't really know what this does*/
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -120,10 +52,15 @@ p{
     overflow: auto;
     margin-bottom: 10vh;
 }
+
+
+/* .card: This is for the big cards behind the charts */
+
+/* This one is for the two charts in week 1 */
     
 .card{
     background: white;
-    width: 330px;
+    width: 400px;
     min-height: 450px;
     border-radius: 10px;
     margin: 30px;
@@ -131,9 +68,10 @@ p{
     border: green solid 6px;
 }
 
+/* This is for the card behind the week two charts */
 .card2{
     background: white;
-    width: 500px;
+    width: 400px;
     min-height: 450px;
     border-radius: 10px;
     margin: 30px;
@@ -141,30 +79,138 @@ p{
     border: green solid 6px;
 }
 
+/* This is for the card behind the week 3 charts*/
 .card3{
     background: white;
-    width: 500px;
-    min-height: 500px;
+    width: 400px;
+    min-height: 450px;
     border-radius: 10px;
     margin: 30px;
     padding: 5px;
     border: green solid 6px;
 }
 
-/* Set the apperance for a particular chart */
-#Chart3{
-    border-color: green; 
-    border-width: 5px;  
+
+
+/* This is for the card behind the week 4 charts*/
+.card4{
+    background: white;
+    width: 400px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+
 }
+
+/* This changes the appearance of the box around the charts */
+
+/*This for the week 1 charts*/
+.chart{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 430px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+    
+}
+
+/*This is for week 2, the first chart*/
+
+.chart5{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 430px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+}
+
+/*This is for week 2, the second chart*/
+.chart6{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 430px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 420px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+}
+
+/*This is for week 3, both charts*/
+
+.chart7{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 430px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+}
+
+.chart7_2{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 455px;
+    width: 415px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+}
+
+/*This is for the box around the week 4 chart*/
+.chart8{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 425px;
+    width: 410px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+}
+
+
+
+
+/*This is extra stuff, links and the footer*/
 
 a{
     outline: none;
-}
-
-#Chart6{
-    border-color: green;
-    border-width: 5px;
-    
 }
 
 footer{
@@ -202,13 +248,13 @@ footer{
 }
 
 a:link, a:visited{
-    color:aliceblue;
+    color:rgb(177, 128, 255);
     opacity: 0.7;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 210,128);
+    color: rgb(177, 128, 255);
     text-decoration: none;
 }
 
@@ -217,7 +263,7 @@ a:active{
 }
 
 a:focus{
-    color: rgb(255,210,128);
+    color: rgb(204, 128, 255);
     text-decoration: none;
 }
 

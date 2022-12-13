@@ -54,7 +54,7 @@
             <p>This second chart is an interactive chart that looks at the nominal quarterly GDP of the UK between 1955-2021.</p>
             </div>
 
-            <div class="card">
+            <div class="card2">
                 <div class="category" style="color: green;">
                 <span>
                     <span style="color: blue;" class="tag">Week 2 - Charts hosted on Github </span>
@@ -71,7 +71,7 @@
                 </span>
             </div>
             <div class="chart6" id="Chart6"></div>
-            <p>This chart shows IMF lending as a percentage of global GDP. It shows that the riskiest year was 1984 as compared to other years, lending as a % of global GDP was highest in this year (0.31%)</p>
+            <p>This chart shows IMF lending as a percentage of global GDP. It shows that the riskiest year was 1984 as compared to other years, lending as a % of global GDP was highest in this year (0.31%).</p>
             </div>
 
             <div class="card3">
@@ -90,10 +90,20 @@
                     <span style="color: blue;" class="tag">Week 3 - Visual Encodings</span>
                 </span>
             </div>
-            <div class="chart7" id="Chart8"></div>
+            <div class="chart7_2" id="Chart8"></div>
             <p>This is the same data presented as a line chart instead of a bar chart. I chose this second visual encoding because it's easier to visualise the individual countries' CO2 emission change over the period and therefore easier to compare with one another. </p>
             </div>
 
+            <div class="card4">
+                <div class="category" style="color: green;">
+                <span>
+                    <Span style="color: blue;" class="tag">Week 4 - Data Scraping</Span>
+                </span>
+            </div>
+            <div class="chart8" id="Chart9"></div>
+            <p>I have made this chart by scraping data from a website using this <a href="https://colab.research.google.com/drive/1mt-DaGcWxFmDKkcVWpiMqJftzeKXYrrs?usp=sharing"> Google colab python notebook</a> 
+            I chose this website because the table element was very easy to find in the HTML, so it was easy to access and then clean the data.</p>
+            </div>
             
             
             
@@ -114,12 +124,13 @@
     //Define charts:
     var myChart1 = "chart1_covidUKRegions.json";
     var myChart2 = "chart2_ukProductivity.json";
-    var myChart3 = "endangered_species.json";
-    var myChart4 = "chart4_sizeofUKeconomy.json";
+    var myChart3 = "week 1/homework 1/endangered_species.json";
+    var myChart4 = "week 1/homework 1/chart4_sizeofUKeconomy.json";
     var myChart5 = "ft_chartnew.json";
     var myChart6 = "ftchart_fixed3.json";
     var myChart7 = "week3/week3_chart1_fixed.json";
     var myChart8 = "week3/week3_chart2.json";
+    var myChart9 = "Week4_chart.json";
 
     // Embed charts:
     vegaEmbed('#Chart3', myChart3);
@@ -128,6 +139,7 @@
     vegaEmbed('#Chart6', myChart6);
     vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
 </script>
 
 <footer>
@@ -145,8 +157,6 @@
             <p>&copy;2022 Rida Butt, Candidate no. 2017892</p>
         </div>
 
-        
-        </div>
     </div>
 </footer>
 
