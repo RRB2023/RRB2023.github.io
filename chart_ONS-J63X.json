@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://api.allorigins.win/raw?url=https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/data_ONS-J63X.json",
+    "format": {"type": "json", "property": "quarters"}
+  },
+  "height": 200,
+  "width": 300,
+  "mark": {"type": "line", "color": "green", "strokeWidth": 1, "opacity": 1},
+  "title": {
+    "text": "UK Employment - Men",
+    "subtitle": "Employment rate (%) aged 15-24, source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "start",
+    "color": "black"
+  },
+  "encoding": {
+    "x": {"field": "year", "type": "temporal", "title": null},
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": null,
+      "scale": {"domain": [40, 100]}
+    }
+  },
+  "config": {}
+}
