@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Share of Unionist Votes in Northern Ireland - 2019 Westminster Election",
+    "subtitle": [
+      "(%) for each parliamentary constituency. Source: UK-GeoJSON, Wikipedia.",
+      ""
+    ],
+    "fontSize":10,
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 8,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "height": 350,
+  "width": 270,
+
+
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/northern_ireland_base_map.json",
+    "format": {"type": "topojson", "feature": "wpc"}
+  },
+  "projection": {"type": "mercator"},
+  "transform": [
+    {
+      "lookup": "properties.PC_NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/northern_ireland_data2.csv"
+        },
+        "key": "Name",
+        "fields": ["Unionist", "Nationalist", "Other"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "aqua", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "field": "Unionist",
+      "type": "quantitative",
+      "legend": {"title": null}
+    },
+    "tooltip": [
+      {
+        "field": "properties.PC_NAME",
+        "type": "nominal",
+        "title": "Constituency"
+      },
+      {"field": "Unionist", "type": "quantitative"}
+    ]
+  }
+}
