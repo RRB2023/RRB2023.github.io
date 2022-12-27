@@ -25,10 +25,17 @@ body, html{
 
 /* Choose the appearance of the tags, h1, h2 and p: */
 
-h1, h2{
+h1{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+h2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: larger;
 }
 
 /* This is for the writing in the boxes under the graphs*/
@@ -104,6 +111,16 @@ p{
 
 }
 
+.card5{
+    background: white;
+    width: 400px;
+    min-height: 100px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
+
 
 /*This is for the card behind the week 7 base map*/
 .card7{
@@ -115,6 +132,17 @@ p{
     padding: 5px;
     border: green solid 6px;
 }
+
+.card7_2{
+  background: white;
+    width: 400px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
+
 
 /* This changes the appearance of the box around the charts */
 
@@ -190,7 +218,7 @@ p{
     padding: 0px;
     padding-top: 3px;
     height: 455px;
-    width: 415px;
+    width: 350px;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -232,7 +260,135 @@ p{
     border-color: green;
 }
 
+.week7_chart2{
+  margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 425px;
+    width: 410px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+}
+
+
+/*This is for the dashboard. please work im actually going to cry.*/
   
+.grid_items {
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 800px; 
+    margin: 0 auto 0 auto !important;
+    padding: 0 5 0 5; 
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+  }
+  .grid_items > div {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 360px;
+    margin:auto;
+  }
+  .grid_items > div:nth-child(3n + 2) {
+    background-color: #ffffff;
+  }
+  .grid_items > div:nth-child(3n) {
+    background-color: #ffffff;
+  }
+  
+  
+  /* ------------------------------------------------------------------------------
+      DIFFERENT SCREEN SIZES
+  -------------------------------------------------------------------------------*/
+  
+  /* One column*/
+  @media only screen and (min-width: 250px) {
+    .grid_items {
+      grid-template-columns: 100%;
+      max-width: 420px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: center;
+    }
+  
+    .wrap {
+      grid-template-columns: 100%;
+      max-width: 360px; 
+      margin: 0 auto 0 auto !important;
+        padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: center;
+    }
+    .grid_items > div {
+      padding: 10px;
+    }
+    .rubric {
+      text-align: left;
+    }
+  
+  
+  }
+  
+  
+  
+  
+  /* Two columns*/
+  @media only screen and (min-width: 900px) {
+    .grid_items, .wrap {
+      grid-template-columns: 47.5% 47.5%;
+      max-width: 880px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: left;
+    }
+    .grid_items > div {
+      padding: 10px;
+    }
+  }
+  
+  
+  /* Three columns*/
+  @media only screen and (min-width: 1400px) {
+    .grid_items, .wrap {
+      grid-template-columns: 30% 30% 30%;
+      max-width: 1400px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 45px;
+      grid-row-gap: 50px;
+    }
+    
+    .grid_items > div {
+      padding: 10px;
+    }
+  }
+  
+  
+  /* Three columns for a bigger screen. come check this later*/
+  @media only screen and (min-width: 1800px) {
+    .grid_items, .wrap {
+      grid-template-columns: 50% 50% 50%;
+      max-width: 1900px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 20px;
+      grid-row-gap: 50px;
+    }
+    .grid_items > div {
+      padding: 10px;
+    }
+  }
   
   
 
@@ -245,8 +401,34 @@ p{
 /*This is extra stuff, links and the footer*/
 
 a{
-    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
 }
+
+
+
+.previous{
+    background-color: black;
+    color: white ;
+
+}
+
+.next {
+    background-color: black;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+.center-text{
+    text-align: center;
+    font-size: 12;
+}
+
+
 
 footer{
     height: 220px;
@@ -283,7 +465,7 @@ footer{
 }
 
 a:link, a:visited{
-    color:rgb(177, 128, 255);
+    color:red;
     opacity: 0.7;
     text-decoration: none;
 }
@@ -298,7 +480,7 @@ a:active{
 }
 
 a:focus{
-    color: rgb(204, 128, 255);
+    color: red;
     text-decoration: none;
 }
 
