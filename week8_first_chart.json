@@ -1,0 +1,181 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "US Private Sector vs Government Employment - 2022",
+    "anchor": "start",
+    "subtitle": "monthly, seasonally adjusted. Source: FRED.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+  },
+  "height": 300,
+  "width": 240,
+  "mark": {"type": "line", "point": false},
+  "encoding": {
+    "x": {"field": "date", "type": "ordinal", "title": null},
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Employees (thousands)"
+    },
+    "color": {"field": "type", "type": "nominal", "title": null}
+  },
+  "data": {
+    "values": [
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-01-01",
+        "value": "22153"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-02-01",
+        "value": "22163"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-03-01",
+        "value": "22176"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-04-01",
+        "value": "22176"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-05-01",
+        "value": "22231"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-06-01",
+        "value": "22178"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-07-01",
+        "value": "22267"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-08-01",
+        "value": "22326"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-09-01",
+        "value": "22340"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-10-01",
+        "value": "22376"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-11-01",
+        "value": "22418"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-01-01",
+        "value": "127591"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-02-01",
+        "value": "128295"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-03-01",
+        "value": "128680"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-04-01",
+        "value": "129048"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-05-01",
+        "value": "129379"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-06-01",
+        "value": "129725"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-07-01",
+        "value": "130173"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-08-01",
+        "value": "130406"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-09-01",
+        "value": "130661"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-10-01",
+        "value": "130909"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-28",
+        "realtime_end": "2022-12-28",
+        "date": "2022-11-01",
+        "value": "131130"
+      }
+    ]
+  },
+  "config": {}
+}
