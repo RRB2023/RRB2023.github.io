@@ -143,6 +143,28 @@ p{
     border: green solid 6px;
 }
 
+.card8{
+  background: white;
+    width: 400px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+
+}
+
+.card8_2{
+  background: white;
+    width: 400px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+
+}
+
 
 /* This changes the appearance of the box around the charts */
 
@@ -273,6 +295,38 @@ p{
     border-style: solid;
     border-radius: 5px;
     border-color: green;
+}
+
+.week8_chart1{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  height: 425px;
+  width: 410px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: green;
+
+}
+
+.week8_chart2{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  height: 425px;
+  width: 410px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: green;
+
 }
 
 

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "US Private Sector vs Government Investment - 2022",
+    "anchor": "start",
+    "subtitle": "Quarterly, seasonally adjusted annual rate. Source: FRED.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+  },
+ 
+ 
+  "height": 320,
+  "width": 240,
+
+
+  "mark": {"type": "line", "point": false, "strokeWidth": 5},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": null},
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Billions of Dollars",
+      "scale": {"domain": [4000, 5000]}
+    },
+    "color": {"field": "type", "type": "nominal", "title": null},
+
+    "tooltip":{"field":"value", "type":"quantitative"}
+  },
+  "data": {
+    "values": [
+      {
+        "type": "government",
+        "realtime_start": "2022-12-29",
+        "realtime_end": "2022-12-29",
+        "date": "2022-01-01",
+        "value": "4311.366"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-29",
+        "realtime_end": "2022-12-29",
+        "date": "2022-04-01",
+        "value": "4412.776"
+      },
+      {
+        "type": "government",
+        "realtime_start": "2022-12-29",
+        "realtime_end": "2022-12-29",
+        "date": "2022-07-01",
+        "value": "4493.044"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-29",
+        "realtime_end": "2022-12-29",
+        "date": "2022-01-01",
+        "value": "4671.027"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-29",
+        "realtime_end": "2022-12-29",
+        "date": "2022-04-01",
+        "value": "4609.927"
+      },
+      {
+        "type": "private",
+        "realtime_start": "2022-12-29",
+        "realtime_end": "2022-12-29",
+        "date": "2022-07-01",
+        "value": "4579.069"
+      }
+    ]
+  },
+  "config": {}
+}
