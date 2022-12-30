@@ -353,6 +353,21 @@ p{
   border-color: green;
 }
 
+.week9_chart2{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  height: 425px;
+  width: 410px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: green;
+}
+
 
 /*This is for the dashboard. please work im actually going to cry.*/
   
