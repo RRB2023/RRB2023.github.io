@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Oil import price and Inflation rate - UK",
+    "subtitle": "Annual crude oil import prices (x), and CPI rate (2000-2021) Source: OECD and ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 8,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/fixed_oilprices_week9.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "layer": [
+    {
+      "mark": {"type": "circle", "color": "rgb(0, 47,167)", "size": 100},
+      "encoding": {
+        "x": {
+          "field": "dollars_per_barrel",
+          "type": "quantitative",
+          "scale": {"domain": [0, 120]},
+          "title": "$ per barrel"
+        },
+        "y": {
+          "field": "CPI_rate",
+          "type": "quantitative",
+          "title": null,
+          "scale": {"domain": [0, 5]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "red"},
+      "transform": [{"regression": "dollars_per_barrel", "on": "CPI_rate"}],
+      "encoding": {
+        "x": {"field": "dollars_per_barrel", "type": "quantitative"},
+        "y": {"field": "CPI_rate", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {}
+}
