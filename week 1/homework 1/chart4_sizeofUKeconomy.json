@@ -10,7 +10,7 @@
 
     "title": {
     "text": "UK GDP (1955-2021)",
-    "subtitle": "Quarterly, nominal GDP (£m). Source: ONS (YBHA)",
+    "subtitle": "Quarterly, nominal GDP. Source: ONS (YBHA)",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
