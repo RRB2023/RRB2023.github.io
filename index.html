@@ -9,33 +9,104 @@
     <title>Homepage</title>
 
     <link rel="stylesheet" href="new-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 </head>
 
-<body>
+<style>
+    * {
+      box-sizing: border-box;
+    }
     
-    <div class="homepage">
-        <div class="homepage_container">
-            <video autoplay muted loop id="homepage_bg">
-                <source src="sky-video.mp4" type="video/mp4">
-            </video>
-            <div class="homepage-content">
-                <h1>Data Science 2022</h1>
-                <div class="flex-parent jc-center">
-                    <a href="portfolio.html"><button type="button" class="portfoliobutton margin-right">Portfolio</button>
-                    </a>
-                    <a href="project.html"><button type="button" class="projectbutton">Project</button>
-                    </a>
-                </div>
-            </div>
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    </style>
+    <body>
+        <div class="homepage">
+            <div class="homepage_container">
+                <video autoplay muted loop id="homepage_bg">
+                    <source src="smallerwater.mp4" type="video/mp4">
+                </video>
 
-        </div>
+        <section class="header1">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="project.html">PROJECT</a></li>
+                        <li><a href="https://github.com/RRB2023/RRB2023.github.io">GITHUB</a></li>
+                        <li><a href="https://rapidcharts.io/datascience">COURSE</a></li>
+    
+                    </ul>
+    
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+    
+    <!-- Header -->
+    <div class="header">
+      <h1>Data Science 2022</h1>
+      <p>Student number: 2017892</p>
     </div>
-</body>
+    
+   
+    
+    </body>
 
 
 

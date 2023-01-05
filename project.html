@@ -1,46 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Title for the page -->
-    <title>Project</title>
-
-    <!-- Link to my style sheet -->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Homepage</title>
     <link rel="stylesheet" href="project.css">
 
-    <!--The next three lines allow the Vega embed-->
+<!-- Font and Icon Imports-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
 <body>
-    <h1>Project</h1>
-    <p>This is my project. It must include 3-8 charts.</p>
+
+  <div class="homepage">
+    <div class="homepage_container">
+        <video autoplay muted loop id="homepage_bg">
+            <source src="smallerwater.mp4" type="video/mp4">
+        </video>
+        <div class="homepage-content">
+          
+
+<!-- Scroll bar that progresses as you scroll down the page-->
+
+    <div class="heading">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div> 
+      </div>
     
-    
-    <h2>Aims of the project</h2>
- 
-    
-    
-    <h3>Data</h3>
-    <p>Discuss what data you used, how you accessed it, including notes on automation/replication.</p>
-    
-    
-    <h4>Challenges</h4>
-    <p>Challenges faces in data cleaning/analysis and the tools you used to overcome them</p>
-    
-    
-    <h5>Conclusion</h5>
-    <p>Make sure each setion is not longer than 200 words</p>
+<!-- Navigation Bar-->
+
+    <section class="header1">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="https://github.com/RRB2023/RRB2023.github.io">GITHUB</a></li>
+                    <li><a href="https://rapidcharts.io/datascience">COURSE</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<!-- Header Text-->
+
+<div class="text-box">
+    <h1>Which country has had the best response to the European Energy Crisis?</h1>
+    <a href="#intro1" class='here-btn'>Project</a>
+
+</div>
+
+    </section>
+
+<!----project section for graphs and everything--->
+<section class="header2">
+
+<div class="intro" id="intro1">
+  <h1>Aims of Project</h1>
+  <p>The aim of my project is to assess which country, from the 5 selected, had the best initial response to the European energy crisis. 
+    The criteria I am using for success will be the effect of the policy on GDP growth, the immediate and long term effect on inflation and therefore the effect on consumer prices.
+  </p>
+  
+  
+  <h2>Data</h2>
+      <p>Discuss what data you used, how you accessed it, including notes on automation/replication.</p>
+  
+      
+      
+  <h3>Challenges</h3>
+  <p>Challenges faces in data cleaning/analysis and the tools you used to overcome them</p>
+      
+      
+  <h4>Conclusion</h4>
+  <p>Make sure each section is not longer than 200 words</p>
 
 
+  <section class="container">
+    <div class="card">
+        <div class="category" style="color: green;">
+        <span>
+            <span style="color: blue;" class="tag">Week 1 - Embedding Graphs</span>
+        </span>
+    </div>
+    <div class="chart" id="Chart3"></div>
+    <p>The first chart shows the number of endangered species, their type and whether they are verterbrates or invertebrates.</p>
+    </div>
+
+</div>
 
 
+</section>
 
 </body>
+
+<script>
+   var myChart3 = "week 1/homework 1/endangered_species.json";
+
+   vegaEmbed('#Chart3', myChart3);
+
+
+   var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+<!---Javascript for ScrollBar-->
+<script>
+
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+
+</script>
+
+</html>
