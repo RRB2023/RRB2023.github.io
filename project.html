@@ -37,7 +37,7 @@
     
 <!-- Navigation Bar-->
 
-    <section class="header1">
+    <section class="header1" id="intro">
         <nav>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
@@ -57,7 +57,7 @@
 <!-- Header Text-->
 
 <div class="text-box">
-    <h1>Which country has had the best response to the European Energy Crisis?</h1>
+    <h1>How effective is the UK's policy response to the European Energy Crisis?</h1>
     <a href="#intro1" class='here-btn'>Project</a>
 
 </div>
@@ -69,36 +69,139 @@
 
 <div class="intro" id="intro1">
   <h1>Aims of Project</h1>
-  <p>The aim of my project is to assess which country, from the 5 selected, had the best initial response to the European energy crisis. 
-    The criteria I am using for success will be the effect of the policy on GDP growth, the immediate and long term effect on inflation and therefore the effect on consumer prices.
+  <p>War in Ukraine has triggered a surge in energy prices, which were already rising as we recovered from the pandemic.
+    I aim to assess the effectiveness of one main policy that UK policymakers have responded with: the Energy Price Gurantee. 
+    It is a price cap aimed at supporting households with their energy bills especially low-income households and other vulnerable groups.
   </p>
-  
-  
-  <h2>Data</h2>
-      <p>Discuss what data you used, how you accessed it, including notes on automation/replication.</p>
-  
-      
-      
-  <h3>Challenges</h3>
-  <p>Challenges faces in data cleaning/analysis and the tools you used to overcome them</p>
-      
-      
-  <h4>Conclusion</h4>
-  <p>Make sure each section is not longer than 200 words</p>
+   
+  </p>
 
+  <h2>Why is this project important?</h2>
+  <p>Policy needs to react now but it also needs to be effective. 
+    Assessing the effectiveness of  policy helps us identify problem areas in our economy and is important for policymakers to amend current policy as well as learn from 
+    mistakes when implementing future policy. 
+  </p>
 
-  <section class="container">
-    <div class="card">
-        <div class="category" style="color: green;">
-        <span>
-            <span style="color: blue;" class="tag">Week 1 - Embedding Graphs</span>
-        </span>
-    </div>
-    <div class="chart" id="Chart3"></div>
-    <p>The first chart shows the number of endangered species, their type and whether they are verterbrates or invertebrates.</p>
-    </div>
-
+  <h3>Structure</h3>
+  <p>I have decided to present this project quite literally by storytelling. 
+    Click below to read my book which includes all charts and discusses the data and challenges I faced in creating the visualisations.
+    Also make sure to click the button underneath each chart to see their full interactivity and the links to the google colab notebooks. Enjoy!</p>
+  <a href="#intro2" class='here-btn'>Book</a>
 </div>
+</section>
+
+<section class="header3" id="intro2">
+
+    <div class="book">
+    
+        <div id="pages" class="pages">
+          <div class="page"> <img src="UK flag.png"><div class="centered">THE STORY OF THE UK'S POLICY RESPONSE TO THE EUROPEAN ENERGY CRISIS</div></div>
+          <div class="page"></div>
+          <div class="page"><img src="covid.jpg" id="covid"><p>Chapter 1: Our story begins in September 2021, when the UK economy, along with the rest of the world, started to recover from the pandemic.</p></div>
+          <div class="page"><p>Energy prices and thereby inflation started to rise as import prices increased, a relationship shown by chart 1 to have a strong positive correlation. Already increasing prices were met with Russia's invasion of Ukraine in February 2022 to create the european energy crisis; a key driver of the cost of living crisis. 
+            Not great. But luckily, UK policymakers had a plan.
+          </p></div>
+          <div class="page"><div class="chart-inside" id="Chart23"></div></div>
+          <div class="page"></div>
+          <div class="page"><p>Chapter 2: The Energy Price Gurantee (a temporary price cap on the unit rate of energy extended to April 2024)</p></div>
+          <div class="page"><p>Data and Challenges: This chart shows two energy price cap forecasts, one before the Energy Price Gurantee was announced and one after. There is a significant reduction in the forecast after the EPG suggesting it
+            might be very effective in reducing the burden of energy bills for households, as it aims. I scraped the data in python from two html pages. The link to the notebook is in the next section. 
+            I then cleaned the data by dropping rows and changed it from wide to TIDY form using the transpose function. I then saved these two tables as seperate csv files and combined them in excel to create a new dataset.
+            I converted the new dataset to a json file in python and used the json inline in vega.</p></div>
+          <div class="page"><div class="chart-inside" id="Chart1"></div><a href="#intro3" class='here-btn'>see below for interactive chart</a></div>
+          <div class="page"><p>Data and Challenges: Even though the previous chart has shown that the price cap is potentially beneficial for households, 
+            this chloropleth map shows that might not be the whole picture. This map shows constituencies and the proportion of households in them that are considered fuel poor.
+            Although the map suggests that fuel poverty is relatively low throughout the constituencies, government data is released with a two-year lag 
+            and so current energy prices are not reflected. Meaning fuel poverty is much higher than we can estimate and therefore policy responses to help 
+            these vunerable people is difficult. I uploaded government data on fuel poverty to my Github and merged it with a GeoJson England parliamentary constituencies map in vega. 
+            The main challenge I faced was getting the colour scheme to be intuitive. It kept shading the least fuel poor areas in dark red and the poorer areas in lighter colours 
+            so I used the lightmulti colour scheme to fix this.
+          </p></div>
+          <div class="page"><div class="chart-inside" id="Chart3"></div><a href="#intro3" class='here-btn'>see below for interactive chart</a></div>
+          <div class="page"></div> 
+          <div class="page"><p>Chapter 4: At What Cost?</p></div>
+          <div class="page"><p>The previous charts show a story of uncertainty. How beneficial will this really be to households and it brings us to the question of 
+            how much will this harm taxpayers in the future. The money that the government is making up the difference with must make its way back. Chart 4 has been made 
+            using an ONS API which I looped in python and then uploaded to my Github, to show net investment in the public sector. 
+            By sliding to 2020 at the start of the pandemic, net investment starts to increase rapidly. Increasing investment to recover from the pandemic, 
+            added on to the investment to counter the cost of living crisis suggests a future burden on taxpayers, ultimately making the energy price gurantee 
+            more harmful in the long term. 
+          </p></div>
+          <div class="page"><div class="chart-inside" id="Chart5"></div><a href="#intro3" class='here-btn'>see below for interactive chart</a></div>
+          <div class="page"></div>
+          <div class="page"><p>Chapter 6: Conclusion</p></div>
+          <div class="page"><p>This story told through data has shown that the enrgy price gurantee will be more helpful than having no policy, and will be able to
+            in the next year relieve some of the burden of energy bills. However as it is too difficult to estimate how many people will be affected and considered to be in fuel poverty
+            it is too soon to say that the energy price gurantee is a success. Overall, we can expect it to be creating a bigger problem for the not-so-far future taxpayer.
+            It would perhaps be more wise to invest in renewable energy sources and move towards alternatives to try and alleviate the dependency on the european energy market. 
+          </p></div>
+          <div class="page"></div>
+        </div>
+      </div>
+    
+</div>
+
+<section class="header4" id="intro3">
+    
+        
+
+        <section class="container">
+            <div class="card">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Chart 1</span>
+                </span>
+            </div>
+            <div class="chart6" id="Chart24"></div>
+            </div>
+
+            <div class="card1">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Chart 2</span>
+                </span>
+            </div> 
+            <div class="chart2" id="Chart2"></div>
+            <url>
+                <a href="https://colab.research.google.com/drive/1pMqjxFCrESZFYJspxZ8hsOIgfAEfpm2w?usp=sharing" target="_blank"> This is the link to the Google colab notebook.</a>
+            </url>
+            <p>This chart is interactive. Hover over the lines to see the forecast for each quarter.</p>
+            </div>
+
+            <div class="card2">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Chart 3</span>
+                </span>
+            </div>
+            <div class="chart5" id="Chart4"></div>
+            </div>
+
+            <div class="card2">
+                <div class="category" style="color: green;">
+                <span>
+                    <span style="color: blue;" class="tag">Chart 3</span>
+                </span>
+            </div>
+            <div class="chart5" id="Chart6"></div>
+            <url>
+                <a href="https://colab.research.google.com/drive/1z7wmNRLEq8kBh1bNgtQIi2YKn6iqmoN3?usp=sharing" target="_blank"> This is the link to the Google colab notebook.</a>
+            </url>
+            </div>
+    
+    
+
+
+
+
+</section>
+
+<section>
+    <a href="#intro" class='here-btn-2'>Start</a>
+</section>
+
+
+
 
 
 </section>
@@ -106,11 +209,29 @@
 </body>
 
 <script>
-   var myChart3 = "week 1/homework 1/endangered_species.json";
+var myChart1 = "price_cap_forecast.json";
+var myChart2 = "interactive_price_cap_forecast.json"
+var myChart3 = "fuel_poverty_map1.json";
+var myChart4 = "interactive_map.json";
+var myChart5 = "Net_investment.json";
+var myChart20 = "week7_chloropleth_map.json";
+var myChart23 = "regression_project.json";
+var myChart24 = "week9_regression.json"
+var myChart6 = "interactive_investment.json";
 
-   vegaEmbed('#Chart3', myChart3);
+vegaEmbed('#Chart1', myChart1);
+vegaEmbed('#Chart2', myChart2);
+vegaEmbed('#Chart3', myChart3);
+vegaEmbed('#Chart4', myChart4);
+vegaEmbed('#Chart5', myChart5);
+vegaEmbed('#Chart20', myChart20);
+vegaEmbed('#Chart23', myChart23);
+vegaEmbed('#Chart5', myChart5);
+vegaEmbed('#Chart6', myChart6);
+vegaEmbed('#Chart24', myChart24)
+</script>
 
-
+<script>
    var navLinks = document.getElementById("navLinks")
     function showMenu(){
         navLinks.style.right = "0";
@@ -119,6 +240,38 @@
         navLinks.style.right = "-200px";
     }
 
+</script>
+<script>
+    var pages = document.getElementsByClassName('page');
+  for(var i = 0; i < pages.length; i++)
+    {
+      var page = pages[i];
+      if (i % 2 === 0)
+        {
+          page.style.zIndex = (pages.length - i);
+        }
+    }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    for(var i = 0; i < pages.length; i++)
+      {
+        //Or var page = pages[i];
+        pages[i].pageNum = i + 1;
+        pages[i].onclick=function()
+          {
+            if (this.pageNum % 2 === 0)
+              {
+                this.classList.remove('flipped');
+                this.previousElementSibling.classList.remove('flipped');
+              }
+            else
+              {
+                this.classList.add('flipped');
+                this.nextElementSibling.classList.add('flipped');
+              }
+           }
+        }
+  })
 </script>
 
 

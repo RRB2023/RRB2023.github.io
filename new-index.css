@@ -10,10 +10,10 @@ body {
 .header {
   text-align: center;
   padding: 32px;
-  color: black;
+  color: white;
   font-size: 50px;
   font-family: 'Quicksand', sans-serif;
-  background-image: linear-gradient(rgba(88, 251, 251, 0.226), rgba(89, 205, 201, 0.541)),url(header.jpeg);
+  background-image: linear-gradient(rgba(85, 100, 161, 0.7), rgba(85, 100, 161, 0.7)),url(header.jpeg);
 }
 
 .row {

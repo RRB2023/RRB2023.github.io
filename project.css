@@ -26,7 +26,16 @@
   .header3 {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(87, 33, 26, 0.7),rgba(87, 33, 26, 0.7)),url(header.jpeg);
+    background-image: linear-gradient(rgba(26, 87, 44, 0.7),rgba(26, 87, 44, 0.7)),url(header.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .header4{
+    height: 180vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(26, 87, 44, 0.7),rgba(26, 87, 44, 0.7)),url(header.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -111,6 +120,27 @@
   }
   
   .here-btn:hover{
+    border:1px solid #FCA311;
+    background: #FCA311;
+    transition: 1s;
+  }
+  
+  .here-btn-2{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 34px;
+    padding-left:740px;
+    padding-right: 700px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  
+  }
+  
+  .here-btn-2:hover{
     border:1px solid #FCA311;
     background: #FCA311;
     transition: 1s;
@@ -219,7 +249,7 @@
     transition: 0.5s;
   
   }
-  
+
   
   
   
@@ -320,19 +350,232 @@
     border-radius: 10px;
     margin: 30px;
     padding: 5px;
-    border: green solid 6px;
+    border: purple solid 6px;
   }
 
   .card p{
     color: black;
   }
   
-  .chart{
+  .chart-inside{
     margin: 0px;
     padding: 0px;
     padding-top: 3px;
-    height: 430px;
-    width: 400px;
+    height: 660px;
+    width: 440px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: purple;
+    
+  }
+
+  .chart-header{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 100px;
+    padding-left: 5px;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: purple;
+  }
+  
+  
+  .book {
+    transition: opacity 0.4s 0.2s;
+  }
+  .book  p{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 8;
+  }
+  .page {
+    width: 30vw;
+    height: 44vw;
+    background-color: #111111;
+    float: left;
+    margin-bottom: 0.5em;
+    background: left top no-repeat;
+    background-size: cover;
+  }
+  
+  .page p{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 14;
+    color: #000000;
+  
+  }
+  
+  
+  .page:nth-child(even) {
+    clear: both;
+  }
+  .book {
+    perspective: 250vw;
+    float: right;
+    padding-right: 290px;
+    padding-top: 100px;
+  }
+  .book .pages {
+    width: 60vw;
+    height: 44vw;
+    position: relative;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    border-radius: 4px;
+    /*box-shadow: 0 0 0 1px #e3dfd8;*/
+  }
+  .book .page {
+    float: none;
+    clear: none;
+    margin: 10;
+    position: absolute;
+    top: 0;
+    width: 30vw;
+    height: 44vw;
+    transform-origin: 0 0;
+    transition: transform 1.4s;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    user-select: none;
+    background-color: #f0f0f0;
+  }
+  .book .page:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.7s;
+    z-index: 2;
+  }
+  .book .page:nth-child(odd) {
+    pointer-events: all;
+    transform: rotateY(0deg);
+    right: 0;
+    border-radius: 0 4px 4px 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,.15) 0%, rgba(0,0,0,0) 10%);
+  }
+  .book .page:nth-child(odd):hover {
+    transform: rotateY(-15deg);
+  }
+  .book .page:nth-child(odd):hover:before {
+    background: rgba(0, 0, 0, 0.03);
+  }
+  .book .page:nth-child(odd):before {
+    background: rgba(0, 0, 0, 0);
+  }
+  .book .page:nth-child(even) {
+    pointer-events: none;
+    transform: rotateY(180deg);
+    transform-origin: 100% 0;
+    left: 0;
+    border-radius: 4px 0 0 4px;
+    border-color: black;
+    background-image: linear-gradient(to left, rgba(0,0,0,.12) 0%, rgba(0,0,0,0) 10%);
+  }
+  .book .page:nth-child(even):before {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .book .page.grabbing {
+    transition: none;
+  }
+  .book .page.flipped:nth-child(odd) {
+    pointer-events: none;
+    transform: rotateY(-180deg);
+  }
+  .book .page.flipped:nth-child(odd):before {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .book .page.flipped:nth-child(even) {
+    pointer-events: all;
+    transform: rotateY(0deg);
+  }
+  .book .page.flipped:nth-child(even):hover {
+    transform: rotateY(15deg);
+  }
+  .book .page.flipped:nth-child(even):hover:before {
+    background: rgba(0, 0, 0, 0.03);
+  }
+  .book .page.flipped:nth-child(even):before {
+    background: rgba(0, 0, 0, 0);
+  }
+  *,
+  * :before,
+  *:after {
+    box-sizing: border-box;
+  }
+  .page:nth-child(odd){
+    background-position: right top;
+  }
+  
+  
+  .pages .page img {
+    width: 440px;
+    height: 670px;
+  }
+
+
+  
+  .pages .page .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .book .body {
+    min-height: 100%;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    line-height: 1.5em;
+  }
+  
+
+  #covid{
+    height: 300px;
+    width: 450px;
+
+  }
+  
+
+  .week7_chart2{
+    margin: 0px;
+      padding: 0px;
+      padding-top: 3px;
+      height: 650px;
+      width: 440px;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border-width: 5px;
+      border-style: solid;
+      border-radius: 5px;
+      border-color: green;
+  }
+
+  .week9_chart2{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    height: 425px;
+    width: 410px;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -340,8 +583,129 @@
     border-style: solid;
     border-radius: 5px;
     border-color: green;
-    
   }
-  
 
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 220px;
+    overflow: auto;
+    margin-bottom: 10vh;
+}
+
+
+/* .card: This is for the big cards behind the charts */
+
+/* This one is for the two charts in week 1 */
     
+.card{
+    background: white;
+    width: 400px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
+
+/* This is for the card behind the week two charts */
+.card2{
+    background: white;
+    width: 400px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
+    
+
+.chart{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  height: 430px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: green;
+  
+}
+
+.chart p{
+  color: black;
+}
+
+/*This is for week 2, the first chart*/
+
+.chart5{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  height: 430px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 400px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: green;
+}
+
+.chart5 p{
+  color:black;
+}
+
+/*This is for week 2, the second chart*/
+.chart6{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  height: 430px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 420px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: green;
+}
+
+.chart2{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  height: 430px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 500px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: green;
+}
+
+.card1{
+  background: white;
+    width: 500px;
+    min-height: 450px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    border: green solid 6px;
+}
+
+.card1 p{
+  color: black;
+}
