@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Energy Price Cap Forecast - 2023",
+    "subtitle": "Forecast for electricity and gas prices. Source: Cornwall Insight (Jan 2023)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {"Date": "2023-04-01", "Total_Forecast": 3545, "EPG": "After"},
+      {"Date": "2023-07-01", "Total_Forecast": 2800, "EPG": "After"},
+      {"Date": "2023-10-01", "Total_Forecast": 2835, "EPG": "After"},
+      {"Date": "2023-01-01", "Total_Forecast": 5387, "EPG": "Before"},
+      {"Date": "2023-04-01", "Total_Forecast": 6616, "EPG": "Before"},
+      {"Date": "2023-07-01", "Total_Forecast": 5897, "EPG": "Before"},
+      {"Date": "2023-10-01", "Total_Forecast": 5887, "EPG": "Before"}
+    ]
+  },
+  "mark": {"type": "line", "strokeWidth": 3},
+  "height": 500,
+  "width": 250,
+  "encoding": {
+    "x": {"field": "Date", "type": "temporal", "axis": {"title": null}},
+    "y": {
+      "field": "Total_Forecast",
+      "type": "quantitative",
+      "axis": {"title": "Forecast (£)"}
+    },
+    "tooltip": [
+      {"field": "Date", "title": "Date", "type": "temporal"},
+      {
+        "field": "Total_Forecast",
+        "title": "Forecast (£)",
+        "type": "quantitative"
+      }
+    ],
+    "color": {
+      "field": "EPG",
+      "type": "nominal",
+      "legend": {
+        "title": "Introduction of EPG",
+        "orient": "right",
+        "labelFontSize": 10
+      },
+      "scale": {"range": ["#4EA1EB", "#EB984E"]}
+    }
+  },
+  "config": {}
+}

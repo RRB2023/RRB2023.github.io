@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Fuel poverty per constituency",
+    "subtitle": [
+      "England (2020) Source: Department for Business, Energy and Industrial Strategy.",
+      ""
+    ],
+    "fontSize": 10,
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 8,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "height": 350,
+  "width": 350,
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/UK_map.json",
+    "format": {"type": "topojson", "feature": "wpc"}
+  },
+  "projection": {"type": "mercator"},
+  "transform": [
+    {
+      "lookup": "properties.PCON13NM",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/RRB2023/RRB2023.github.io/main/fuel_poverty.csv"
+        },
+        "key": "Parliamentary Constituency",
+        "fields": ["Proportion of households fuel poor (%)"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "aqua", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "field": "Proportion of households fuel poor (%)",
+      "type": "quantitative",
+      "legend": null,
+      "scale": {"scheme": "lightmulti"}
+    },
+    "tooltip": [
+      {
+        "field": "properties.PCON13NM",
+        "type": "nominal",
+        "title": "Constituency"
+      },
+      {
+        "field": "Proportion of households fuel poor (%)",
+        "type": "quantitative",
+        "title": "% households fuel poor"
+      }
+    ]
+  }
+}
